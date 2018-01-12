@@ -3,7 +3,7 @@ layout: default
 title: Venue
 ---
 
-## Conference venue
+# Conference venue
 
 The confernce will take place at Università degli Studi di Bergamo, Sant’Agostino
 campus at:

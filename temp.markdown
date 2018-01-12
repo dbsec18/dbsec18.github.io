@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Program
+title: DBsec
 ---
 
 <pre>
@@ -14,6 +14,6 @@ title: Program
                                                         
 </pre>
 
-The dbsec18 program is TBD.
+The dbsec18 website is coming soon.
 
 
