@@ -1,5 +1,5 @@
 # Site settings
-title: DBsec18
+title: DBSec18
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://dbsec18.github.io" # the base hostname & protocol for your site
 
