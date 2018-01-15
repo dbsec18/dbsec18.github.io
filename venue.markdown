@@ -5,7 +5,7 @@ title: Venue
 
 # Conference venue
 
-The confernce will take place at Università degli Studi di Bergamo, Sant’Agostino
+The conference will take place at Università degli Studi di Bergamo, Sant’Agostino
 campus at:
 Piazzale S.Agostino, 2
 24129 Bergamo
