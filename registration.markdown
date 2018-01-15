@@ -7,8 +7,10 @@ title: Registration
 
 ### Important Dates
 
-* __Author__ registration: TBA
-* __Early bird__ registration: TBA
+|------------------------------|---------|
+| __Author__ registration:     | **TBA** |
+| __Early bird__ registration: | **TBA** |
+{: .table }
 
 
 ### Notes to authors of papers accepted at DBSec 2018

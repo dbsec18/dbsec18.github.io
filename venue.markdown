@@ -11,6 +11,7 @@ Piazzale S.Agostino, 2
 24129 Bergamo
 Italy
 
+--------------------------------------------------------------------------------
 
 ## How to reach Bergamo
 

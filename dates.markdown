@@ -9,6 +9,7 @@ title: Dates
 | Paper Submission due:     | **TBA** |
 | Notification to authors:  | **TBA** |
 | Final papers due:         | **TBA** |
+{: .table }
 
 <br>
 

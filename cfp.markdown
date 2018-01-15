@@ -33,8 +33,8 @@ High-quality original novel research from academia, industry, and government pre
 
 ## Paper Submissions
 
-Submitted papers should be at most 16 pages in the LNCS format (author
-instructions can be found [here](/authors)), including the bibliography and well-marked
+Submitted papers should be at most 16 pages in the LNCS format<!--(author
+instructions can be found [here](/authors))-->, including the bibliography and well-marked
 appendices. Committee members are not required to read the appendices, and so
 the paper should be intelligible without them. Submissions are to be made to
 the submission web site at [easychair](http://www.easychair.org). Only pdf files will be
@@ -70,3 +70,4 @@ Computer Security.
 | Paper Submission due:     | **TBA** |
 | Notification to authors:  | **TBA** |
 | Final papers due:         | **TBA** |
+{: .table }
