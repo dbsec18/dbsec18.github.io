@@ -11,8 +11,6 @@ The 32nd Annual IFIP WG 11.3 Conference on Data and Applications Security and Pr
 Papers accepted at DBSec are published by Springer in the Lecture Notes in Computer Science series.
 High-quality original novel research from academia, industry, and government presenting on all theoretical and practical aspects of information security are accepted on topics including, but are not limited to:
 
-<br/><br/>
-
 <table width="100%">
    <tbody>
       <tr>
@@ -61,6 +59,18 @@ High-quality original novel research from academia, industry, and government pre
       </tr>
       <tr>
          <td>identity management</td>
+         <td>security and privacy in crowdsourcing</td>
+         <td>trust management</td>
+      </tr>
+      <tr>
+         <td>intrusion detection </td>
+         <td>security and privacy in IT outsourcing</td>
+         <td>wireless and mobile security</td>
+      </tr>
+   </tbody>
+</table>
+
+<br><br>
 
 
 ## Paper Submissions
