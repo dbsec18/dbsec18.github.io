@@ -21,7 +21,9 @@ Outstanding papers will be invited for possible publication in the Journal of Co
 [![Springer LNCS Logo](/assets/LNCS.jpg)](http://www.springer.com/it/computer-science/lncs/conference-proceedings-guidelines)
 <br>
 <br>
+{% comment %}
 We are using the EasyChair conference system to handle submissions. To submit a paper you then need an account on EasyChair. If you do not have such an account, please follow this link. Once you have your EasyChair account, you may proceed to [upload your paper](XXXXXXXX).
+{% endcomment %}
 
 <br><br>
 If you have any question, please contact the organizers at [dbsec18@unibg.it](mailto:dbsec18@unibg.it)
