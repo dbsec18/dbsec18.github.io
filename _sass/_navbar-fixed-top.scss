@@ -1,4 +1,14 @@
-body {
-  padding-top: 100px;
-  padding-bottom: 80px;
+#content {
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+
+.nav-wrapper {
+    min-height:72px;
 }
