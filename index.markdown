@@ -70,7 +70,7 @@ High-quality original novel research from academia, industry, and government pre
    </tbody>
 </table>
 
-
+<br><br>
 Outstanding papers will be invited for possible publication in the Journal of
 Computer Security.
 <br><br>
