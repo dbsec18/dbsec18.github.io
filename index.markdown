@@ -3,13 +3,19 @@ layout: default
 title: DBsec
 ---
 
+<div class="row">
+  <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 col-lg-3">
+    <img class="img-responsive img-rounded" src="/images/bergamo.jpg" style="margin-bottom: 20px;"/>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-7">
+  <p>DBSec is an annual international conference covering research in data and applications security and privacy.
+  The 32nd Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy (DBSec 2018) will be held in Bergamo, Italy.</p>
+  <p>Papers accepted at DBSec are published by Springer in the Lecture Notes in Computer Science series.
+  High-quality original novel research from academia, industry, and government presenting on all theoretical and practical aspects of information security are accepted on topics including, but are not limited to:</p>
+  </div>
+</div>
 
-DBSec is an annual international conference covering research in data and applications security and privacy.
-The 32nd Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy (DBSec 2018) will be held in Bergamo, Italy.
-
-Papers accepted at DBSec are published by Springer in the Lecture Notes in Computer Science series.
-High-quality original novel research from academia, industry, and government presenting on all theoretical and practical aspects of information security are accepted on topics including, but are not limited to:
-
+<br/><br/>
 
 <table width="100%">
    <tbody>
