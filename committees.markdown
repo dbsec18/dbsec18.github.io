@@ -6,12 +6,24 @@ title: Committees
 # Committees
 
 ## General Chair
-TBA
+Sara Foresti  
+Universita' degli Studi di Milano, Italy
 
 --------------------------------------------------------------------------------
 
-## Program Chair
-TBA
+## Program Chairs
+Florian Kerschbaum  
+University of Waterloo, Canada
+
+Stefano Paraboschi  
+Universita' degli Studi di Bergamo, Italy
+
+--------------------------------------------------------------------------------
+
+## Publicity Chairs
+
+Enrico Bacis, Marco Rosa  
+Universita' degli Studi di Bergamo, Italy
 
 --------------------------------------------------------------------------------
 
