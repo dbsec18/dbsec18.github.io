@@ -5,10 +5,12 @@ title: CFP
 
 # Call for Papers
 
-<p class="text-center"><b>32nd Annual IFIP WG 11.3 Working Conference on Data and Applications Security and Privacy (DBSec 2018)</b></p>
-<p class="text-center">Bergamo, Italy -- July 18-20 2018<p>
+--------------------------------------------------------------------------------
 
-<br><br>
+<p class="text-center"><b>32nd Annual IFIP WG 11.3 Working Conference on Data and Applications Security and Privacy (DBSec 2018)</b></p>
+<p class="text-center">Bergamo, Italy -- July 18-20 2018</p>
+
+--------------------------------------------------------------------------------
 
 DBSec is an annual international conference covering research in data
 and applications security and privacy. The 32nd Annual IFIP WG 11.3
@@ -20,7 +22,6 @@ privacy, and applications security. Topics of interest include,
 but are not limited to:
 
 <br><br>
-
 <table width="100%">
    <tbody>
       <tr>
@@ -47,7 +48,8 @@ but are not limited to:
          <td>big data security</td>
          <td>privacy</td>
          <td>security and privacy policies</td>
-         </tr><tr>
+      </tr>
+      <tr>
          <td>data and system integrity</td>
          <td>secure cloud computing</td>
          <td>security management</td>
@@ -79,7 +81,6 @@ but are not limited to:
       </tr>
    </tbody>
 </table>
-
 <br><br>
 
 --------------------------------------------------------------------------------
@@ -121,3 +122,4 @@ substantially similar papers.
 | Notification to authors:  | **May 21, 2018**                                  |
 | Final papers due:         | **May 31, 2018**                                  |
 {: .table }
+
