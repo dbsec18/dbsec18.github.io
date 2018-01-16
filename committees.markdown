@@ -31,3 +31,9 @@ Universita' degli Studi di Bergamo, Italy
 TBA
 
 --------------------------------------------------------------------------------
+
+## IFIP WG11.3 Chair
+Sabrina De Capitani di Vimercati  
+Universita' degli Studi di Milano, Italy
+
+--------------------------------------------------------------------------------
