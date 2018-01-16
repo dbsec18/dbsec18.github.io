@@ -8,23 +8,23 @@ title: Committees
 --------------------------------------------------------------------------------
 
 ## General Chair
-Sara Foresti<br>
+Sara Foresti  
 Universita' degli Studi di Milano, Italy<br><br>
 
 --------------------------------------------------------------------------------
 
 ## Program Chairs
-Florian Kerschbaum<br>
-University of Waterloo, Canada<br>
+Florian Kerschbaum  
+University of Waterloo, Canada
 
-Stefano Paraboschi<br>
+Stefano Paraboschi  
 Universita' degli Studi di Bergamo, Italy<br><br>
 
 --------------------------------------------------------------------------------
 
 ## Publicity Chairs
 
-Enrico Bacis, Marco Rosa<br>
+Enrico Bacis, Marco Rosa  
 Universita' degli Studi di Bergamo, Italy<br><br>
 
 --------------------------------------------------------------------------------
@@ -35,5 +35,5 @@ TBA<br><br>
 --------------------------------------------------------------------------------
 
 ## IFIP WG11.3 Chair
-Sabrina De Capitani di Vimercati<br>
+Sabrina De Capitani di Vimercati  
 Universita' degli Studi di Milano, Italy<br><br>
