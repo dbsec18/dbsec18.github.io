@@ -68,6 +68,7 @@ there are these options:
 	<li class="list-group-item">"Malpensa Express" train to Milano Cadorna (every 30 minutes, 45 minutes to reach Milano Cadorna, 11 Euro), then the underground to Milano Centrale (15 minutes on the green line, 1.5 Euro), then follow the indications provided in <i>How to reach Bergamo from Milano Centrale train station</i>.</li>
 </ul>
 
+--------------------------------------------------------------------------------
 
 ### Train
 
@@ -91,12 +92,16 @@ Milano Centrale to Bergamo airport (60 minutes, 10 Euro). Check the indications
 in How to reach Bergamo by plane.  
 [website](https://www.trenitalia.com)
 
+--------------------------------------------------------------------------------
+
 ### Bus
 
 Pick Bus number 1A “Città Alta” right in front of the station and get
 off at Porta Sant’Agostino, the university building is about 100 meters on the
 right after the city gate, in the former convent of Sant’Agostino.  
 [website](https://www.atb.bergamo.it/en)
+
+--------------------------------------------------------------------------------
 
 ### Car
 Bergamo is located 50 Km East of Milano. The A4 motorway between Milano and

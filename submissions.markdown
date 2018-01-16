@@ -5,6 +5,8 @@ title: Submissions
 
 # Submissions
 
+--------------------------------------------------------------------------------
+
 Submitted papers should be at most 16 pages in the LNCS format,
 including the bibliography and well-marked appendices. Committee
 members are not required to read the appendices, and so the paper

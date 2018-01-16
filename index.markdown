@@ -81,4 +81,4 @@ Outstanding papers will be invited for possible publication in the Journal of
 Computer Security.
 <br><br>
 
-If you have any question, please contact the organizers at [dbsec18@unibg.it](mailto:dbsec18@unibg.it)
+If you have any question, please contact the organizers at [dbsec18@unibg.it](mailto:dbsec18@unibg.it).
