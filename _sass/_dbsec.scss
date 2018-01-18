@@ -73,6 +73,7 @@ ul li {
 	top:		15px;
 	left:		170px;
 	height:		122px;
+	padding-top:    5px;
 }
 
 #pageHeader #logo {
@@ -80,6 +81,20 @@ ul li {
 	margin-right:   10px;
 	height:		122px;
 	width:		122px;
+}
+
+#pageHeader #txt {
+	height:		122px;
+        width:		-webkit-calc(vw - 150px);
+        width:		-moz-calc(vw - 150px);
+        width:		calc(vw - 150px);
+	display:	table-cell;
+	vertical-align:	bottom;
+	padding-bottom:	5px;
+}
+
+#pageHeader #txt img {
+	max-width:	95%;
 }
 
 #pageHeader h1 {
