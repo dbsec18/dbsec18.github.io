@@ -73,7 +73,6 @@ ul li {
 	top:		15px;
 	left:		170px;
 	height:		122px;
-	padding-top:    5px;
 }
 
 #pageHeader #logo {
@@ -81,16 +80,13 @@ ul li {
 	margin-right:   10px;
 	height:		122px;
 	width:		122px;
+	margin-top:	5px;
 }
 
 #pageHeader #txt {
-	height:		122px;
-        width:		-webkit-calc(vw - 150px);
-        width:		-moz-calc(vw - 150px);
-        width:		calc(vw - 150px);
 	display:	table-cell;
 	vertical-align:	bottom;
-	padding-bottom:	5px;
+	height:		122px;
 }
 
 #pageHeader #txt img {
@@ -100,24 +96,25 @@ ul li {
 #pageHeader h1 {
 	margin-top:	5px !important;
 	margin-bottom:	5px !important;
+	line-height:	1.1;
 }
 
 #pageHeader h1 span {
 	color:		white;
 	font-family:    Helvetica, sans-serif !important;
-	font-size:	70% !important;
-	line-height:	0 !important;
+	font-size:	70%;
 }
 
 
 #pageHeader h2 {
 	margin-top:	5px !important;
 	margin-bottom:	5px !important;
+	line-height:	1.1;
 }
 
 #pageHeader h2 span {
 	color:		white;
-	font-size:	60% !important;
+	font-size:	60%;
 }
 
 #pageHeader h3 span {
