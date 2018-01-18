@@ -1,7 +1,7 @@
 CALL FOR PAPERS
-32nd Annual IFIP WG 11.3 Working Conference on Data and 
+32nd Annual IFIP WG 11.3 Working Conference on Data and
 Applications Security and Privacy (DBSec 2018)
-Bergamo, Italy -- July 18-20 2018
+Bergamo, Italy -- July 2018
 
 
 DBSec is an annual international conference covering research in data
@@ -13,34 +13,34 @@ research on all theoretical and practical aspects of data protection,
 privacy, and applications security. Topics of interest include,
 but are not limited to:
 
-- access control                          
-- anonymity                              
-- applied cryptography in data security  
-- authentication                          
-- big data security                      
-- data and system integrity              
-- data protection                      
-- database security                      
-- digital rights management              
-- identity management                  
-- intrusion detection                  
-- knowledge discovery and privacy                        
-- methodologies for data and application security  
-- network security                                  
-- organizational security                          
-- privacy                                          
-- secure cloud computing                              
-- secure distributed systems                          
-- secure information integration                      
-- secure Web services                              
-- security and privacy in crowdsourcing              
-- security and privacy in IT outsourcing              
-- security and privacy in the Internet of Things            
+- access control
+- anonymity
+- applied cryptography in data security
+- authentication
+- big data security
+- data and system integrity
+- data protection
+- database security
+- digital rights management
+- identity management
+- intrusion detection
+- knowledge discovery and privacy
+- methodologies for data and application security
+- network security
+- organizational security
+- privacy
+- secure cloud computing
+- secure distributed systems
+- secure information integration
+- secure Web services
+- security and privacy in crowdsourcing
+- security and privacy in IT outsourcing
+- security and privacy in the Internet of Things
 - security and privacy in location-based services
 - security and privacy in P2P scenarios and social networks
 - security and privacy in pervasive/ubiquitous computing
 - security and privacy policies
-- security management 
+- security management
 - security metrics
 - threats, vulnerabilities, and risk management
 - trust and reputation systems
