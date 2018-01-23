@@ -8,7 +8,7 @@ title: CFP
 --------------------------------------------------------------------------------
 
 <p class="text-center"><b>32nd Annual IFIP WG 11.3 Working Conference on Data and Applications Security and Privacy (DBSec 2018)</b></p>
-<p class="text-center">Bergamo, Italy -- July 2018</p>
+<p class="text-center">Bergamo, Italy -- 16-18 July 2018</p>
 
 --------------------------------------------------------------------------------
 
