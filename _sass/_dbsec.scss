@@ -311,3 +311,8 @@ table.feetable td {
 	border-style:		solid;
 	padding: 5px;
 }
+
+table.committee td:first-child {
+	padding-right: 15px;
+	font-style: italic;
+}
