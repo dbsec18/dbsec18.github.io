@@ -1,4 +1,5 @@
 CALL FOR PAPERS
+
 32nd Annual IFIP WG 11.3 Working Conference on Data and
 Applications Security and Privacy (DBSec 2018)
 Bergamo, Italy -- July 16-18, 2018
