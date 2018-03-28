@@ -95,99 +95,31 @@ submission web site at
 <https://easychair.org/conferences/?conf=dbsec2018>. Only pdf files will
 be accepted.  Submissions not meeting these guidelines risk rejection
 without consideration of their merits. Papers must be received by the
-deadline of March 30, 2018 (11:59 PM American Samoa time).  At least
-one author of an accepted paper is required to register for the
-conference at the full rate and must guarantee that the paper will be
-presented. Note that for authors with multiple accepted papers, one
-full registration is valid for one paper only. Accepted papers will be
-published by Springer in the Lecture Notes in Computer Science (LNCS)
-series. The final version of the accepted papers must be in the format
-required of publications in the LNCS series (a Latex source file will
-be required).  A paper submitted to DBSec 2018 cannot be under review
-for any other conference or journal during the time it is being
-considered for DBSec 2018. Furthermore, after you submit to DBSec
-2018, you must await our response before submitting elsewhere. If you
-submit your paper to another conference or journal either before/after
-submission of the paper to DBSec 2018, we will reject your paper
-without review and will notify the other conference/journal as
-well. This restriction applies to identical as well as to
-substantially similar papers.
+deadline of ~~March 30, 2018~~ **April 13, 2018** (11:59 PM American
+Samoa time).  At least one author of an accepted paper is required to
+register for the conference at the full rate and must guarantee that the
+paper will be presented. Note that for authors with multiple accepted
+papers, one full registration is valid for one paper only. Accepted
+papers will be published by Springer in the Lecture Notes in Computer
+Science (LNCS) series. The final version of the accepted papers must be
+in the format required of publications in the LNCS series (a Latex
+source file will be required).  A paper submitted to DBSec 2018 cannot
+be under review for any other conference or journal during the time it
+is being considered for DBSec 2018. Furthermore, after you submit to
+DBSec 2018, you must await our response before submitting elsewhere. If
+you submit your paper to another conference or journal either
+before/after submission of the paper to DBSec 2018, we will reject your
+paper without review and will notify the other conference/journal as
+well. This restriction applies to identical as well as to substantially
+similar papers.
 
 --------------------------------------------------------------------------------
 
 ## Important dates
 
-|---------------------------|---------------------------------------------------|
-| Paper Submission due:     | **March 30, 2018 - 11:59 PM American Samoa Time** |
-| Notification to authors:  | **May 21, 2018**                                  |
-| Final papers due:         | **May 31, 2018**                                  |
+|---------------------------|----------------------------------------------------------------------|
+| Paper Submission due:     | ~~March 30, 2018~~ **April 13, 2018 - 11:59 PM American Samoa Time** |
+| Notification to authors:  | **May 21, 2018**                                                     |
+| Final papers due:         | **May 31, 2018**                                                     |
 {: .table }
 
---------------------------------------------------------------------------------
-
-## General Chair
-*Sara Foresti*  
-Università degli Studi di Milano, Italy<br><br>
-
---------------------------------------------------------------------------------
-
-## Program Chairs
-*Florian Kerschbaum*  
-University of Waterloo, Canada
-
-*Stefano Paraboschi*  
-Università degli Studi di Bergamo, Italy<br><br>
-
---------------------------------------------------------------------------------
-
-## Publicity Chairs
-
-*Enrico Bacis, Marco Rosa*  
-Università degli Studi di Bergamo, Italy<br><br>
-
---------------------------------------------------------------------------------
-
-## Program Committee
-
-| Frederik Armknecht               | University of Mannheim, Germany          |
-| Vijay Atluri                     | Rutgers University, USA                  |
-| Frederic Cuppens                 | Telecom Bretagne, France                 |
-| Nora Cuppens-Boulahia            | Telecom Bretagne, France                 |
-| Sabrina De Capitani di Vimercati | Università degli Studi di Milano, Italy  |
-| Giovanni Di Crescenzo            | Vencore Labs, USA                        |
-| Sara Foresti                     | Università degli Studi di Milano, Italy  |
-| Joaquin Garcia-Alfaro            | Telecom SudParis, France                 |
-| Stefanos Gritzalis               | University of the Aegean, Greece         |
-| Ehud Gudes                       | Ben-Gurion University, Israel            |
-| Yuan Hong                        | Illinois Institute of Technology, USA    |
-| Sushil Jajodia                   | George Mason University, USA             |
-| Sokratis Katsikas                | Giovik University College, Norway        |
-| Alex X. Liu                      | Michigan State University, USA           |
-| Peng Liu                         | Pennsylvania State University            |
-| Giovanni Livraga                 | Università degli Studi di Milano, Italy  |
-| Ashwin Machanavajjhala           | Duke University, USA                     |
-| Brad Malin                       | Vanderbilt University, USA               |
-| Fabio Martinelli                 | IIT-CNR, Italy                           |
-| Catherine Meadows                | NRL, USA                                 |
-| Martin Olivier                   | University of Pretoria, South Africa     |
-| Andreas Peter                    | University of Twente, Netherlands        |
-| Silvio Ranise                    | FBK Security and Trust Unit, Italy       |
-| Indrajit Ray                     | Colorado State University, USA           |
-| Kui Ren                          | University at Buffalo, USA               |
-| Pierangela Samarati              | Università degli Studi di Milano, Italy  |
-| Scott Stoller                    | Stony Brook University, USA              |
-| Tamir Tassa                      | The Open University of Israel, Israel    |
-| Mahesh Tripunitara               | University of Waterloo, Canada           |
-| Jaideep Vaidya                   | Rutgers University, USA                  |
-| Lingyu Wang                      | Concordia University, Canada             |
-| Wendy H. Wang                    | Stevens Institute of Technology, USA     |
-| Attila Yavuz                     | Oregon State University, USA             |
-| Ting Yu                          | QCRI, Qatar                              |
-| Nicola Zannone                   | Eindhoven Technical University           |
-{: .committee }
-
---------------------------------------------------------------------------------
-
-## IFIP WG11.3 Chair
-*Sabrina De Capitani di Vimercati*  
-Università degli Studi di Milano, Italy<br><br>

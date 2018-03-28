@@ -58,7 +58,7 @@ submission web site at
 https://easychair.org/conferences/?conf=dbsec2018. Only pdf files will
 be accepted.  Submissions not meeting these guidelines risk rejection
 without consideration of their merits. Papers must be received by the
-deadline of March 30, 2018 (11:59 PM American Samoa time).  At least
+deadline of April 13, 2018 (11:59 PM American Samoa time).  At least
 one author of an accepted paper is required to register for the
 conference at the full rate and must guarantee that the paper will be
 presented. Note that for authors with multiple accepted papers, one
@@ -78,7 +78,7 @@ substantially similar papers.
 
 
 IMPORTANT DATES
-Paper Submission due: March 30, 2018 - 11:59 PM American Samoa Time
+Paper Submission due: April 13, 2018 - 11:59 PM American Samoa Time
 Notification to authors: May 21, 2018
 Final papers due: May 31, 2018
 
