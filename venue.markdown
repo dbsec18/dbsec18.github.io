@@ -55,7 +55,7 @@ To reach Bergamo from Milano Linate there are these options:
 </ul>
 
 
-**MILANO MALPENSA AIRPORT (MPX)**
+**MILANO MALPENSA AIRPORT (MXP)**
 
 It is connected with many cities in Europe and to most of the
 hubs of European airlines. To reach Bergamo from Milano Malpensa

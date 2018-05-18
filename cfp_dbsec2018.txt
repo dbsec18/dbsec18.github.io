@@ -146,4 +146,4 @@ Università degli Studi di Milano, Italy
 
 
 This call for papers and additional information about the conference
-can be found at http://dbsec18.unibg.it
+can be found at https://dbsec18.unibg.it

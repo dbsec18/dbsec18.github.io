@@ -13,7 +13,7 @@ Your electronic submission is due on or before **TBA**. Your page limit is set b
 * **full papers**: 16 page limit;
 * **short papers**: 8 page limit.
 
-The final version of your paper must follow Springer guidelines available [here](http://www.springer.com/it/computer-science/lncs/conference-proceedings-guidelines).
+The final version of your paper must follow Springer guidelines available [here](https://www.springer.com/it/computer-science/lncs/conference-proceedings-guidelines).
 All papers have to be typeset in _LaTeX2e_ using the Springer _llncs.cls_ file.
 Please keep to the Springer template and do not redefine margins, and do not use commands to fit into page limits (the paper will be reformatted by the publisher).
 
