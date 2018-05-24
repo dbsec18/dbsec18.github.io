@@ -21,9 +21,9 @@ allowed. One registration covers one paper/poster.
 
   <!-- Saved buttons are identified by their button IDs -->
   <input type="hidden" name="cmd"            value="_s-xclick">
-  <input type="hidden" name="image_url"      value="https://dbsec18.unibg.it/images/dbsec18-logo.png">
-  <input type="hidden" name="return"         value="https://dbsec18.unibg.it/thankyou">
-  <input type="hidden" name="cancel_return"  value="https://dbsec18.unibg.it/paymentcancel">
+  <input type="hidden" name="image_url"      value="{{ "/images/dbsec18-logo.png" | absolute_url }}">
+  <input type="hidden" name="return"         value="{{ "/thankyou" | absolute_url }}">
+  <input type="hidden" name="cancel_return"  value="{{ "/paymentcancel" | absolute_url }}">
 
   <!-- Saved buttons display an appropriate button image. -->
   <input type="image" name="submit" src="https://www.paypalobjects.com/en_US/IT/i/btn/btn_buynowCC_LG.gif" alt="PayPal - The safer, easier way to pay online">

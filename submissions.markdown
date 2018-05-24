@@ -33,7 +33,7 @@ paper without review and will notify the other conference/journal as
 well. This restriction applies to identical as well as to substantially
 similar papers.
 
-[![Springer LNCS Logo](/assets/LNCS.jpg)](https://www.springer.com/it/computer-science/lncs/conference-proceedings-guidelines)
+[![Springer LNCS Logo]({{ "/assets/LNCS.jpg" | relative_url }})](https://www.springer.com/it/computer-science/lncs/conference-proceedings-guidelines)
 
 <br><br>
 If you have any question, please contact the organizers at

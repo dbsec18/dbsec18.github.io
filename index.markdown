@@ -5,7 +5,7 @@ title: DBSec2018
 
 <div class="row">
   <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
-    <img class="img-responsive img-rounded" src="/images/bergamo.jpg" style="margin-bottom: 20px;"/>
+  <img class="img-responsive img-rounded" src="{{ "/images/bergamo.jpg" | relative_url }}" style="margin-bottom: 20px;"/>
   </div>
   <div class="col-xs-12 col-sm-6 col-md-7">
   <p>DBSec is an annual international conference covering research in data and applications security and privacy.
