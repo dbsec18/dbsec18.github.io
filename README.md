@@ -8,4 +8,6 @@ forms](https://www.cognitoforms.com).
 After creating the form, it is possible to use the automation in the
 file `_microsoft-flow.json` in this repository with [Microsoft
 Flow](https://flow.microsoft.com) to add entries to a Google
-Spreadsheet and send it by email.
+Spreadsheet and send it by email. Before importing the automation,
+open the `_microsoft-flow.json` file and change every occurrence of
+`CHANGE*` with the relevant string (email, access tokens, etc.).
