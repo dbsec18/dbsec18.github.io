@@ -7,7 +7,7 @@ url: "https://dbsec18.github.io" # the base hostname & protocol for your site
 markdown: kramdown
 
 # Check gems allowed on github pages here: https://pages.github.com/versions/
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-sitemap
