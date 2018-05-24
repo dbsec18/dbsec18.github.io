@@ -11,3 +11,5 @@ gems:
   - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-sitemap
+
+exclude: ['CNAME', 'README.md']
