@@ -5,11 +5,19 @@ title: Venue
 
 # Conference venue
 
-The conference will take place at Università degli Studi di Bergamo, Sant’Agostino
-campus at:
-Piazzale S.Agostino, 2
-24129 Bergamo
-Italy
+The conference will take place at <a href="https://www.unibg.it" target="_blank">Università degli Studi di Bergamo</a>, Sant’Agostino campus at: Piazzale S. Agostino 2, Bergamo (Italy)
+
+<div style="text-align: center; margin-left: auto; margin-right: auto; padding-top: 1em;">
+	<iframe width="650" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/d/u/0/embed?mid=15nvpnI0QHpTxJ9xqTuMRSpULsHP6cKv3">
+	</iframe>
+	<div>
+		<a class="popup" style="color: rgb(0, 0, 255); text-align: left; font-size: small;" href="https://drive.google.com/open?id=15nvpnI0QHpTxJ9xqTuMRSpULsHP6cKv3&amp;usp=sharing">
+				Click here to expand the map
+		</a>
+	</div>
+</div>
+
+A wide network of buses covers the entire city and generally all the main places can be reached within half an hour. For more information: <a href="https://www.atb.bergamo.it/en" target="_blank">ATB</a>.
 
 --------------------------------------------------------------------------------
 
