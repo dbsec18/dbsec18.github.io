@@ -5,9 +5,21 @@ title: Venue
 
 # Conference venue
 
-The conference will take place at <a href="https://www.unibg.it" target="_blank">Università degli Studi di Bergamo</a>, Sant’Agostino campus at: Piazzale S. Agostino 2, Bergamo (Italy)
+The conference will take place at <a href="https://www.unibg.it" target="_blank">Università degli Studi di Bergamo</a>, Sant’Agostino campus at: Piazzale S. Agostino 2, Bergamo (Italy).
 
-A wide network of buses covers the entire city and generally all the main places can be reached within half an hour. For more information: <a href="https://www.atb.bergamo.it/en" target="_blank">ATB</a>.
+Piazzale Sant'Agostino is located at the beginning of Città Alta, the historic
+part of the city (see [tourist info](/tourist)).
+
+A wide network of buses covers the entire city and generally all the main places can be reached within half an hour. For more information visit <a href="https://www.atb.bergamo.it/en" target="_blank">ATB</a> or download ATB app.
+
+<div class="row">
+    <div class="column" style="float:left;padding:5px">
+        <a href="https://itunes.apple.com/it/app/atb-mobile/id825762052?mt=8" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg)no-repeat;width:135px;height:40px;background-size:contain;"></a>
+    </div>
+    <div class="column" style="float:left;padding:5px">
+        <a href='https://play.google.com/store/apps/details?id=it.soluzione1.tplmobile'><img alt='Get it on Google Play' src='https://developer.android.com/images/brand/en_generic_rgb_wo_45.png' height="40px" width="135px"/></a>
+    </div>
+</div>
 
 <br/>
 
