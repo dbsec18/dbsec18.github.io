@@ -1,0 +1,334 @@
+{
+    "$schema":
+    "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion":
+    "1.0.0.0",
+    "parameters": {
+        "logicAppName": {
+            "type": "String",
+            "metadata": {
+                "description": "Name of the logic app."
+            }
+        },
+        "logicAppLocation": {
+            "defaultValue":
+            "[resourceGroup().location]",
+            "allowedValues": [
+                "eastasia", "southeastasia", "centralus", "eastus", "eastus2",
+                "westus", "northcentralus", "southcentralus", "northeurope",
+                "westeurope", "japanwest", "japaneast", "brazilsouth",
+                "australiaeast", "australiasoutheast", "southindia",
+                "centralindia", "westindia", "canadacentral", "canadaeast",
+                "westcentralus", "westus2", "[resourceGroup().location]"
+            ],
+            "type":
+            "String",
+            "metadata": {
+                "description": "Location of the logic app."
+            }
+        },
+        "gmail_Connection_Name": {
+            "defaultValue": "gmail",
+            "type": "String",
+            "metadata": {
+                "description": "Name of the connection."
+            }
+        },
+        "googlesheet_Connection_Name": {
+            "defaultValue": "googlesheet",
+            "type": "String",
+            "metadata": {
+                "description": "Name of the connection."
+            }
+        },
+        "cognitoforms_Connection_Name": {
+            "defaultValue": "cognitoforms",
+            "type": "String",
+            "metadata": {
+                "description": "Name of the connection."
+            }
+        }
+    },
+    "resources": [{
+        "type":
+        "Microsoft.Logic/workflows",
+        "name":
+        "[parameters('logicAppName')]",
+        "apiVersion":
+        "2016-06-01",
+        "location":
+        "[parameters('logicAppLocation')]",
+        "properties": {
+            "state": "Disabled",
+            "definition": {
+                "$schema":
+                "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+                "contentVersion":
+                "1.0.0.0",
+                "parameters": {
+                    "$connections": {
+                        "defaultValue": {},
+                        "type": "Object"
+                    },
+                    "$authentication": {
+                        "defaultValue": {},
+                        "type": "SecureObject"
+                    }
+                },
+                "triggers": {
+                    "When_a_new_entry_is_created": {
+                        "metadata": {
+                            "flowSystemMetadata": {
+                                "swaggerOperationId": "NewEntry"
+                            }
+                        },
+                        "type": "ApiConnectionWebhook",
+                        "inputs": {
+                            "host": {
+                                "connection": {
+                                    "name":
+                                    "@parameters('$connections')['cognitoforms']['connectionId']"
+                                }
+                            },
+                            "body": {
+                                "notificationUrl": "@{listCallbackUrl()}"
+                            },
+                            "path": "/integration/oauth/subscribenewentry",
+                            "queries": {
+                                "publisher": "1",
+                                "module": "forms"
+                            },
+                            "authentication": "@parameters('$authentication')"
+                        }
+                    }
+                },
+                "actions": {
+                    "Send_email": {
+                        "runAfter": {
+                            "HTTP": ["Succeeded"]
+                        },
+                        "metadata": {
+                            "flowSystemMetadata": {
+                                "swaggerOperationId": "SendEmail"
+                            }
+                        },
+                        "type": "ApiConnection",
+                        "inputs": {
+                            "host": {
+                                "connection": {
+                                    "name":
+                                    "@parameters('$connections')['gmail']['connectionId']"
+                                }
+                            },
+                            "method": "post",
+                            "body": {
+                                "To":
+                                "CHANGE@EMAIL.COM",
+                                "Subject":
+                                "CHANGE.CONF - Registration Spreadsheet Updated",
+                                "Body":
+                                "The Registration Spreadsheet has been updated with a new entry.\n\nhttps://docs.google.com/spreadsheets/d/CHANGE-DOCUMENTID/edit?usp=sharing",
+                                "Attachments": [{
+                                    "Name":
+                                    "Registrations.xlsx",
+                                    "ContentBytes":
+                                    "@{base64(body('HTTP'))}",
+                                    "ContentType":
+                                    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                                }],
+                                "Cc":
+                                "CHANGE@EMAIL.COM"
+                            },
+                            "path": "/Mail",
+                            "authentication": "@parameters('$authentication')"
+                        }
+                    },
+                    "HTTP": {
+                        "runAfter": {
+                            "Insert_row": ["Succeeded"]
+                        },
+                        "type": "Http",
+                        "inputs": {
+                            "method":
+                            "GET",
+                            "uri":
+                            "https://docs.google.com/spreadsheets/d/CHANGE-DOCUMENTID/export?format=xlsx"
+                        }
+                    },
+                    "Insert_row": {
+                        "runAfter": {},
+                        "metadata": {
+                            "CHANGE-DOCUMENTID":
+                            "/CHANGE/PATH/TO/SPREADSHEET",
+                            "flowSystemMetadata": {
+                                "swaggerOperationId": "PostItem"
+                            }
+                        },
+                        "type": "ApiConnection",
+                        "inputs": {
+                            "host": {
+                                "connection": {
+                                    "name":
+                                    "@parameters('$connections')['googlesheet']['connectionId']"
+                                }
+                            },
+                            "method":
+                            "post",
+                            "body": {
+                                "ID":
+                                "@{triggerBody()?['Id']}",
+                                "Title":
+                                "@triggerBody()?['PERSONALINFORMATION']?['Title']",
+                                "First_x0020_Name":
+                                "@triggerBody()?['PERSONALINFORMATION']?['FirstgivenName']",
+                                "Middle_x0020_Name":
+                                "@triggerBody()?['PERSONALINFORMATION']?['MiddleNameinitial']",
+                                "Last_x0020_Name":
+                                "@triggerBody()?['PERSONALINFORMATION']?['LastfamilyName']",
+                                "Company_x0020__x002f__x0020_Organization":
+                                "@triggerBody()?['PERSONALINFORMATION']?['CompanyOrganization']",
+                                "Email":
+                                "@triggerBody()?['PERSONALINFORMATION']?['EmailAddress']",
+                                "Phone":
+                                "@triggerBody()?['PERSONALINFORMATION']?['PhoneNumber']",
+                                "Fax":
+                                "@triggerBody()?['PERSONALINFORMATION']?['FaxNumber']",
+                                "Address_x0020_Line_x0020_1":
+                                "@triggerBody()?['PERSONALINFORMATION']?['Address']?['Line1']",
+                                "Address_x0020_Line_x0020_2":
+                                "@triggerBody()?['PERSONALINFORMATION']?['Address']?['Line2']",
+                                "Address_x0020_City":
+                                "@triggerBody()?['PERSONALINFORMATION']?['Address']?['City']",
+                                "Address_x0020_State":
+                                "@triggerBody()?['PERSONALINFORMATION']?['Address']?['State']",
+                                "Address_x0020_Postcode":
+                                "@triggerBody()?['PERSONALINFORMATION']?['Address']?['PostalCode']",
+                                "Address_x0020_Contry":
+                                "@triggerBody()?['PERSONALINFORMATION']?['Address']?['Country']",
+                                "Invoice_x0020_to_x0020_be_x0020_issued_x0020_to":
+                                "@triggerBody()?['DATAFORTHEINVOICE']?['InvoiceToBeIssuedTo']",
+                                "Date_x0020_of_x0020_birth":
+                                "@triggerBody()?['DATAFORTHEINVOICE']?['DateOfBirth']",
+                                "Place_x0020_of_x0020_birth":
+                                "@triggerBody()?['DATAFORTHEINVOICE']?['PlaceOfBirth']",
+                                "Fiscal_x0020_Code":
+                                "@triggerBody()?['DATAFORTHEINVOICE']?['FiscalCode']",
+                                "Organization":
+                                "@triggerBody()?['DATAFORTHEINVOICE']?['Organization']",
+                                "Organization_x0020_Line_x0020_1":
+                                "@triggerBody()?['DATAFORTHEINVOICE']?['Address']?['Line1']",
+                                "Organization_x0020_Line_x0020_2":
+                                "@triggerBody()?['DATAFORTHEINVOICE']?['Address']?['Line2']",
+                                "Organization_x0020_City":
+                                "@triggerBody()?['DATAFORTHEINVOICE']?['Address']?['City']",
+                                "Organization_x0020_State":
+                                "@triggerBody()?['DATAFORTHEINVOICE']?['Address']?['State']",
+                                "Organization_x0020_Postcode":
+                                "@triggerBody()?['DATAFORTHEINVOICE']?['Address']?['PostalCode']",
+                                "Organization_x0020_Country":
+                                "@triggerBody()?['DATAFORTHEINVOICE']?['Address']?['Country']",
+                                "Organization_x0020_VAT":
+                                "@triggerBody()?['DATAFORTHEINVOICE']?['VAT']",
+                                "Paper_x0020_number":
+                                "@triggerBody()?['CONFERENCEINFORMATION']?['ForAuthorsRegistrationPaperNumber']",
+                                "Student_x0020_pdf":
+                                "@{if(empty(triggerBody()?['CONFERENCEINFORMATION']?['ForStudentRegistrationsPleaseUploadACopyOfAValidStudentIDCardPDF']?[0]?['Id']), '', concat('https://services.cognitoforms.com/forms/api/oauth/file?access_token=CHANGE.ACCESSTOKEN&id=', triggerBody()?['CONFERENCEINFORMATION']?['ForStudentRegistrationsPleaseUploadACopyOfAValidStudentIDCardPDF']?[0]?['Id']))}",
+                                "Dietary_x0020_Restrictions":
+                                "@{join(triggerBody()?['CONFERENCEINFORMATION']?['DietaryRestrictions'], ', ')\n}",
+                                "Disability_x0020_Needs":
+                                "@triggerBody()?['CONFERENCEINFORMATION']?['DisabilityNeedsDoYouHaveADisabilityOrSpecialNeedThatWeNeedToBeAwareOf']",
+                                "Notes":
+                                "@triggerBody()?['CONFERENCEINFORMATION']?['Notes']",
+                                "Entry_Timestamp":
+                                "@triggerBody()?['Entry']?['Timestamp']",
+                                "View_x0020_Link":
+                                "@triggerBody()?['Entry']?['AdminLink']"
+                            },
+                            "path":
+                            "/datasets/@{encodeURIComponent(encodeURIComponent('CHANGE-DOCUMENTID'))}/tables/@{encodeURIComponent(encodeURIComponent('0'))}/items",
+                            "authentication":
+                            "@parameters('$authentication')"
+                        }
+                    }
+                },
+                "outputs": {}
+            },
+            "parameters": {
+                "$connections": {
+                    "value": {
+                        "gmail": {
+                            "id":
+                            "[concat('/subscriptions/', subscription().subscriptionId, '/providers/Microsoft.Web/locations/', parameters('logicAppLocation'), '/managedApis/', 'gmail')]",
+                            "connectionId":
+                            "[resourceId('Microsoft.Web/connections', parameters('gmail_Connection_Name'))]",
+                            "connectionName":
+                            "[parameters('gmail_Connection_Name')]"
+                        },
+                        "googlesheet": {
+                            "id":
+                            "[concat('/subscriptions/', subscription().subscriptionId, '/providers/Microsoft.Web/locations/', parameters('logicAppLocation'), '/managedApis/', 'googlesheet')]",
+                            "connectionId":
+                            "[resourceId('Microsoft.Web/connections', parameters('googlesheet_Connection_Name'))]",
+                            "connectionName":
+                            "[parameters('googlesheet_Connection_Name')]"
+                        },
+                        "cognitoforms": {
+                            "id":
+                            "[concat('/subscriptions/', subscription().subscriptionId, '/providers/Microsoft.Web/locations/', parameters('logicAppLocation'), '/managedApis/', 'cognitoforms')]",
+                            "connectionId":
+                            "[resourceId('Microsoft.Web/connections', parameters('cognitoforms_Connection_Name'))]",
+                            "connectionName":
+                            "[parameters('cognitoforms_Connection_Name')]"
+                        }
+                    }
+                }
+            },
+            "runtimeConfiguration": {
+                "collections": {
+                    "maximumItemCount": 5000
+                }
+            }
+        },
+        "dependsOn": [
+            "[resourceId('Microsoft.Web/connections', parameters('gmail_Connection_Name'))]",
+            "[resourceId('Microsoft.Web/connections', parameters('googlesheet_Connection_Name'))]",
+            "[resourceId('Microsoft.Web/connections', parameters('cognitoforms_Connection_Name'))]"
+        ]
+    }, {
+        "type": "Microsoft.Web/connections",
+        "name": "[parameters('gmail_Connection_Name')]",
+        "apiVersion": "2016-06-01",
+        "location": "[parameters('logicAppLocation')]",
+        "properties": {
+            "api": {
+                "id":
+                "[concat('/subscriptions/', subscription().subscriptionId, '/providers/Microsoft.Web/locations/', parameters('logicAppLocation'), '/managedApis/', 'gmail')]"
+            },
+            "displayName": "[parameters('gmail_Connection_Name')]"
+        }
+    }, {
+        "type": "Microsoft.Web/connections",
+        "name": "[parameters('googlesheet_Connection_Name')]",
+        "apiVersion": "2016-06-01",
+        "location": "[parameters('logicAppLocation')]",
+        "properties": {
+            "api": {
+                "id":
+                "[concat('/subscriptions/', subscription().subscriptionId, '/providers/Microsoft.Web/locations/', parameters('logicAppLocation'), '/managedApis/', 'googlesheet')]"
+            },
+            "displayName": "[parameters('googlesheet_Connection_Name')]"
+        }
+    }, {
+        "type": "Microsoft.Web/connections",
+        "name": "[parameters('cognitoforms_Connection_Name')]",
+        "apiVersion": "2016-06-01",
+        "location": "[parameters('logicAppLocation')]",
+        "properties": {
+            "api": {
+                "id":
+                "[concat('/subscriptions/', subscription().subscriptionId, '/providers/Microsoft.Web/locations/', parameters('logicAppLocation'), '/managedApis/', 'cognitoforms')]"
+            },
+            "displayName": "[parameters('cognitoforms_Connection_Name')]"
+        }
+    }]
+}
