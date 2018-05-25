@@ -1,17 +1,33 @@
 ---
 layout: default
-title: Tourism info
+title: Tourism Information
 ---
 
 # Tourist Information
 
-Useful links about Bergamo:
-- [Bergamo official turism website](http://www.visitbergamo.net/en/)
-- [Bergamo guides](http://www.bergamoguide.it/)
-- [Lonely planet](https://www.lonelyplanet.com/italy/lombardy-and-the-lakes/bergamo)
-- [Bergamo airport](http://www.milanbergamoairport.it/en/)
-- [ATB Bergamo buses](https://www.atb.bergamo.it/it)
+<br/>
 
+<div class="row">
+    <div class="col-xs-8 col-xs-offset-2">
+        <img class="img-responsive center-block" src="{{ "/assets/tourism/tourism.jpg" | relative_url }}">
+        <br/>
+        <p class="text-center">If you want to visit Bergamo and its museums you can use these guides:</p><br/><br/>
+        <div class="row">
+            <div class="col-xs-6">
+                <p class="text-center"><b>Guide of the city</b></p>
+                <a href="{{ "/assets/tourism/Bergamo_guide.pdf" | relative_url }}" target="_blank">
+                    <img class="img-responsive center-block img-thumbnail" src="{{ "/assets/tourism/Bergamo_guide.png" | relative_url }}" style="width:50%; height:auto;"><br/>
+                </a>
+            </div>
+            <div class="col-xs-6">
+                <p class="text-center"><b>Tourist map of the city</b></p>
+                <a href="{{ "/assets/tourism/Bergamo_map.pdf" | relative_url }}" target="_blank">
+                    <img class="img-responsive center-block img-thumbnail" src="{{ "/assets/tourism/Bergamo_map.png" | relative_url }}" style="width:50%; height:auto;"><br/>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
 
 ### AC Voltage and Plugs
 
@@ -116,3 +132,12 @@ Shops are generally open Monday to Saturday, 8.00-13.00 and 15.00-20.00. Some
 stores are closed on Monday morning. Others (usually electricity, hardware etc.)
 are closed on Saturday afternoon. Supermarkers and department stores usually are
 open 8.00-20.00 (excluding Sunday).
+
+### Useful links about Bergamo
+
+- [Bergamo official turism website](http://www.visitbergamo.net/en/)
+- [Bergamo guides](http://www.bergamoguide.it/)
+- [Lonely planet](https://www.lonelyplanet.com/italy/lombardy-and-the-lakes/bergamo)
+- [Bergamo airport](http://www.milanbergamoairport.it/en/)
+- [ATB Bergamo buses](https://www.atb.bergamo.it/it)
+
