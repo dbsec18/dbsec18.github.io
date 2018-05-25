@@ -9,9 +9,9 @@ title: Tourism Information
 
 <div class="row">
     <div class="col-xs-8 col-xs-offset-2">
-        <img class="img-responsive center-block" src="{{ "/assets/tourism/tourism.jpg" | relative_url }}">
+        <img class="img-responsive img-rounded center-block" src="{{ "/assets/tourism/tourism.jpg" | relative_url }}">
         <br/>
-        <p class="text-center">If you want to visit Bergamo and its museums you can use these guides:</p><br/><br/>
+        <p class="text-center">If you want to visit Bergamo and its museums you can use these guides.</p><br/><br/>
         <div class="row">
             <div class="col-xs-6">
                 <p class="text-center"><b>Guide of the city</b></p>
