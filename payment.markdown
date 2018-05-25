@@ -21,7 +21,7 @@ allowed. One registration covers one paper/poster.
 
   <!-- Saved buttons are identified by their button IDs -->
   <input type="hidden" name="cmd"            value="_s-xclick">
-  <input type="hidden" name="image_url"      value="{{ "/images/dbsec18-logo.png" | absolute_url }}">
+  <input type="hidden" name="image_url"      value="{{ "/assets/images/dbsec18-logo.png" | absolute_url }}">
   <input type="hidden" name="return"         value="{{ "/thankyou" | absolute_url }}">
   <input type="hidden" name="cancel_return"  value="{{ "/paymentcancel" | absolute_url }}">
 
