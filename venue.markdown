@@ -22,15 +22,25 @@ A wide network of buses covers the entire city and generally all the main places
 </div>
 
 <br/>
+<br/>
 
-<div style="text-align: center; margin-left: auto; margin-right: auto; padding-top: 1em;">
-	<iframe width="650" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/d/u/0/embed?mid=15nvpnI0QHpTxJ9xqTuMRSpULsHP6cKv3">
-	</iframe>
-	<div>
-		<a class="popup" style="color: rgb(0, 0, 255); text-align: left; font-size: small;" href="https://drive.google.com/open?id=15nvpnI0QHpTxJ9xqTuMRSpULsHP6cKv3&amp;usp=sharing">
-				Click here to expand the map
-		</a>
-	</div>
+<div class="row">
+    <div class="col-xs-12 col-sm-6">
+        <img class="img-responsive center-block img-thumbnail" src="{{ "/assets/images/SantAgostino.jpg" | relative_url }}"><br/>
+        <p class="text-center">The monumental complex of <i>Sant'Agostino</i>, located on Bergamo Upper Town's slopes, will serve as the host site for <b>DBSec 2018</b>.
+        Since 2001, it is one of the campuses of University of Bergamo and recent restoration works permitted to transform the "<i>ex church</i>" of Sant' Agostino into the University Lecture Hall.
+        </p>
+        <br/>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+        <div class="text-center center-block">
+            <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 400px; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 400px; }</style><div class='embed-container'><iframe frameborder='0' src='https://www.google.com/maps/d/u/0/embed?mid=15nvpnI0QHpTxJ9xqTuMRSpULsHP6cKv3'> </iframe></div>
+            <br/>
+            <a class="text-center" style="color: rgb(0, 0, 255); font-size: small;" href="https://drive.google.com/open?id=15nvpnI0QHpTxJ9xqTuMRSpULsHP6cKv3&amp;usp=sharing" target="_blank">
+                Click here to expand the map
+            </a>
+        </div>
+    </div>
 </div>
 
 <br/>
@@ -72,10 +82,10 @@ It has frequent connections to Rome and to the main hubs of European airlines.
 To reach Bergamo from Milano Linate there are these options:
 
 <ul class="list-group">
-	<li class="list-group-item">Taxi to Bergamo. It takes 40 minutes to reach Bergamo (50 Km). The cost would be around 100 Euro.</li>
-	<li class="list-group-item">Taxi to the central train station in Milano, "Milano Centrale" (20 minutes, around 20 Euro), then follow the indications in <i>How to reach Bergamo from Milano Centrale train station</i>.</li>
-	<li class="list-group-item">Bus to the central train station in Milano, "Milano Centrale" (20 minutes, every 20-30 minutes, 9 Euro), then follow the indications provided in <i>How to reach Bergamo from Milano Centrale train station</i>.</li>
-	<li class="list-group-item">Bus '73' to the center of Milano (every 10 minutes, 25 minutes, 1.50 Euro), then underground to Milano Centrale (15 minutes, same ticket used on the bus, stamp it again when entering the underground), then follow the indications provided in <i>How to reach Bergamo from Milano Centrale train station</i>.</li>
+    <li class="list-group-item">Taxi to Bergamo. It takes 40 minutes to reach Bergamo (50 Km). The cost would be around 100 Euro.</li>
+    <li class="list-group-item">Taxi to the central train station in Milano, "Milano Centrale" (20 minutes, around 20 Euro), then follow the indications in <i>How to reach Bergamo from Milano Centrale train station</i>.</li>
+    <li class="list-group-item">Bus to the central train station in Milano, "Milano Centrale" (20 minutes, every 20-30 minutes, 9 Euro), then follow the indications provided in <i>How to reach Bergamo from Milano Centrale train station</i>.</li>
+    <li class="list-group-item">Bus '73' to the center of Milano (every 10 minutes, 25 minutes, 1.50 Euro), then underground to Milano Centrale (15 minutes, same ticket used on the bus, stamp it again when entering the underground), then follow the indications provided in <i>How to reach Bergamo from Milano Centrale train station</i>.</li>
 </ul>
 
 
@@ -86,10 +96,10 @@ hubs of European airlines. To reach Bergamo from Milano Malpensa
 there are these options:
 
 <ul class="list-group">
-	<li class="list-group-item">Taxi to Bergamo. It takes 1h20 minutes to reach Bergamo (90 Km); the cost would be relatively high (around 150-180 Euro).</li>
-	<li class="list-group-item">Taxi to the central train station in Milano, "Milano Centrale" (60 minutes, around 100 Euro), then follow the indications provided in <i>How to reach Bergamo from Milano Centrale train station</i></li>
-	<li class="list-group-item">"Malpensa Shuttle" bus to the central train station in Milano, "Milano Centrale" (every 20-30 minutes, 60 minutes, 10 Euro), then follow the indications provided in <i>How to reach Bergamo from Milano Centrale train station</i>.</li>
-	<li class="list-group-item">"Malpensa Express" train to Milano Cadorna (every 30 minutes, 45 minutes to reach Milano Cadorna, 11 Euro), then the underground to Milano Centrale (15 minutes on the green line, 1.5 Euro), then follow the indications provided in <i>How to reach Bergamo from Milano Centrale train station</i>.</li>
+    <li class="list-group-item">Taxi to Bergamo. It takes 1h20 minutes to reach Bergamo (90 Km); the cost would be relatively high (around 150-180 Euro).</li>
+    <li class="list-group-item">Taxi to the central train station in Milano, "Milano Centrale" (60 minutes, around 100 Euro), then follow the indications provided in <i>How to reach Bergamo from Milano Centrale train station</i></li>
+    <li class="list-group-item">"Malpensa Shuttle" bus to the central train station in Milano, "Milano Centrale" (every 20-30 minutes, 60 minutes, 10 Euro), then follow the indications provided in <i>How to reach Bergamo from Milano Centrale train station</i>.</li>
+    <li class="list-group-item">"Malpensa Express" train to Milano Cadorna (every 30 minutes, 45 minutes to reach Milano Cadorna, 11 Euro), then the underground to Milano Centrale (15 minutes on the green line, 1.5 Euro), then follow the indications provided in <i>How to reach Bergamo from Milano Centrale train station</i>.</li>
 </ul>
 
 --------------------------------------------------------------------------------
