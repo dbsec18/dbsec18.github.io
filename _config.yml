@@ -12,4 +12,12 @@ plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
 
-exclude: ['CNAME', 'README.md']
+exclude: [
+  'CNAME',
+  'README.md',
+  'paymentcancel.markdown',
+  'payment.markdown',
+  'registration.markdown',
+  'registration-test.markdown',
+  'thankyou.markdown'
+]
