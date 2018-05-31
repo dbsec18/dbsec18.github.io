@@ -49,7 +49,6 @@ Università degli Studi di Bergamo, Italy<br><br>
 | Giovanni Livraga                 | Università degli Studi di Milano, Italy  |
 | Ashwin Machanavajjhala           | Duke University, USA                     |
 | Brad Malin                       | Vanderbilt University, USA               |
-| Fabio Martinelli                 | IIT-CNR, Italy                           |
 | Catherine Meadows                | NRL, USA                                 |
 | Martin Olivier                   | University of Pretoria, South Africa     |
 | Andreas Peter                    | University of Twente, Netherlands        |
