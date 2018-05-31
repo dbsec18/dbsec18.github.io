@@ -15,6 +15,7 @@ plugins:
 exclude: [
   'CNAME',
   'README.md',
+  'authors.markdown',
   'paymentcancel.markdown',
   'payment.markdown',
   'registration.markdown',
