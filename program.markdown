@@ -20,10 +20,6 @@ title: Program
 <dt class="program-entry">11.00 - 12.30: Session 1 - Integrity and Administration</dt>
 
 {% include paper.html
-  title="Gaussian Mixture Models for Classification and Hypothesis Tests under  Differential Privacy"
-  authors="Xiaosu Tong, Bowei Xi, Murat Kantarcioglu and Ali Inan" %}
-
-{% include paper.html
   title="Nawaf Alhebaishi, Lingyu Wang, Sushil Jajodia and Anoop Singhal"
   authors="Modeling and Mitigating the Insider Threat of Remote Administrators in Clouds" %}
 
