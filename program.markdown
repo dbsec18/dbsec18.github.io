@@ -20,40 +20,48 @@ title: Program
 <dt class="program-entry">11.00 - 12.30: Session 1 - Integrity and Administration</dt>
 
 {% include paper.html
-  title="Nawaf Alhebaishi, Lingyu Wang, Sushil Jajodia and Anoop Singhal"
-  authors="Modeling and Mitigating the Insider Threat of Remote Administrators in Clouds" %}
+  title="Modeling and Mitigating the Insider Threat of Remote Administrators in Clouds"
+  authors="Nawaf Alhebaishi, Lingyu Wang, Sushil Jajodia and Anoop Singhal"
+%}
 
 {% include paper.html
-  title="Long Nguyen, Jean-Philippe Eisenbarth, Claudia-Lavinia Ignat and Olivier Perrin"
-  authors="Blockchain-based Auditing of Transparent Log Servers" %}
+  title="Blockchain-based Auditing of Transparent Log Servers"
+  authors="Long Nguyen, Jean-Philippe Eisenbarth, Claudia-Lavinia Ignat and Olivier Perrin"
+%}
 
 {% include paper.html
-  title="Grisha Weintraub and Ehud Gudes"
-  authors="Data Integrity Verification in Column-Oriented NoSQL Databases" %}
+  title="Data Integrity Verification in Column-Oriented NoSQL Databases"
+  authors="Grisha Weintraub and Ehud Gudes"
+%}
 
 <dt class="program-entry">12.30 - 14.00: Lunch</dt>
 
 <dt class="program-entry">14.00 - 16.00: Session 2 - Access Control Policies</dt>
 
 {% include paper.html
-  title="Gunjan Batra, Vijayalakshmi Atluri, Jaideep Vaidya and Shamik Sural"
-  authors="Enabling the deployment of ABAC policies in RBAC systems" %}
+  title="Enabling the deployment of ABAC policies in RBAC systems"
+  authors="Gunjan Batra, Vijayalakshmi Atluri, Jaideep Vaidya and Shamik Sural"
+%}
 
 {% include paper.html
-  title="Martin Kolar, Carmen Fernández-Gago and Javier Lopez"
-  authors="Policy Languages and Their Suitability for Trust Negotiation" %}
+  title="Policy Languages and Their Suitability for Trust Negotiation"
+  authors="Martin Kolar, Carmen Fernández-Gago and Javier Lopez"
+%}
 
 {% include paper.html
-  title="(S) Vishwas Patil and R.K. Shyamasundar"
-  authors="Role of Apps in Undoing of Privacy Policies on Facebook" %}
+  title="<small>(short)</small> Role of Apps in Undoing of Privacy Policies on Facebook"
+  authors="Vishwas Patil and R.K. Shyamasundar"
+%}
 
 {% include paper.html
-  title="(S) Luciano Argento, Andrea Margheri, Federica Paci, Nicola Zannone and Vladimiro Sassone"
-  authors="Towards Adaptive Access Control" %}
+  title="<small>(short)</small> Towards Adaptive Access Control"
+  authors="Luciano Argento, Andrea Margheri, Federica Paci, Nicola Zannone and Vladimiro Sassone"
+%}
 
 {% include paper.html
-  title="(S) Md Zakir Hossen and Mohammad Mannan"
-  authors="ContextDroid: Analyzing Contextual Permission Usage of Android Apps" %}
+  title="<small>(short)</small> ContextDroid: Analyzing Contextual Permission Usage of Android Apps"
+  authors="Md Zakir Hossen and Mohammad Mannan"
+%}
 
 <dt class="program-entry">16.00 - 16.30: Coffee break</dt>
 
@@ -76,44 +84,52 @@ title: Program
 <dt class="program-entry">11.00 - 12.30: Session 3 - Privacy-Preserving Access and Computation</dt>
 
 {% include paper.html
-  title="Thang Hoang, Attila A. Yavuz, Betul F. Durak and Jorge Guajardo"
-  authors="Oblivious Dynamic Searchable Encryption on Distributed Cloud Systems" %}
+  title="Oblivious Dynamic Searchable Encryption on Distributed Cloud Systems"
+  authors="Thang Hoang, Attila A. Yavuz, Betul F. Durak and Jorge Guajardo"
+%}
 
 {% include paper.html
-  title="Tamir Tassa and Guy Barshap"
-  authors="Privacy-Preserving Planarity Testing of Distributed Graphs" %}
+  title="Privacy-Preserving Planarity Testing of Distributed Graphs"
+  authors="Tamir Tassa and Guy Barshap"
+%}
 
 {% include paper.html
-  title="Marc Joye and Fariborz Salehi"
-  authors="Private yet Efficient Decision Tree Evaluation" %}
+  title="Private yet Efficient Decision Tree Evaluation"
+  authors="Marc Joye and Fariborz Salehi"
+%}
 
 <dt class="program-entry">12.30 - 14.00: Lunch</dt>
 
 <dt class="program-entry">14.00 - 15.30: Session 4 - Image Security and User Interaction</dt>
 
 {% include paper.html
-  title="Liyue Fan"
-  authors="Image Pixelization with Differential Privacy" %}
+  title="Image Pixelization with Differential Privacy"
+  authors="Liyue Fan"
+%}
 
 {% include paper.html
-  title="Ian Mackie and Merve Yildirim"
-  authors="A Novel Hybrid Password Authentication Scheme Based on Text and Image" %}
+  title="A Novel Hybrid Password Authentication Scheme Based on Text and Image"
+  authors="Ian Mackie and Merve Yildirim"
+%}
 
 {% include paper.html
-  title="Majid Hatamian, Agnieszka Kitkowska, Jana Korunovska and Sabrina Kirrane"
-  authors="\"It's shocking!\": Analysing the Impact and Reactions to the A3: Android Apps Behaviour Analyser" %}
+  title="\"It's shocking!\": Analysing the Impact and Reactions to the A3: Android Apps Behaviour Analyser"
+  authors="Majid Hatamian, Agnieszka Kitkowska, Jana Korunovska and Sabrina Kirrane"
+%}
 
 <dt class="program-entry">15.30 - 16.00: Coffee break</dt>
 
 <dt class="program-entry">16.00 - 16.40: Session 5 - Security Analysis</dt>
 
 {% include paper.html
-  title="(S) Edwin Bourget, Frédéric Cuppens, Nora Cuppens-Boulahia, Samuel Dubus, Simon Foley and Youssef Laarouchi"
-  authors="Probabilistic Event Graph to Model Safety and Security for Diagnosis Purposes" %}
+  title="<small>(short)</small> Probabilistic Event Graph to Model Safety and Security for Diagnosis Purposes"
+  authors="Edwin Bourget, Frédéric Cuppens, Nora Cuppens-Boulahia, Samuel Dubus, Simon Foley and Youssef Laarouchi"
+%}
 
 {% include paper.html
-  title="(S) Radhika B S, N V Narendra Kumar and R K Shyamasundar"
-  authors="FlowConSEAL: Automatic Flow Consistency Analysis of SEAndroid and SELinux Policies" %}
+  title="<small>(short)</small> FlowConSEAL: Automatic Flow Consistency Analysis of SEAndroid and SELinux Policies"
+  authors="Radhika B S, N V Narendra Kumar and R K Shyamasundar"
+%}
 
 <dt class="program-entry">16.40 - 17.10: Business meeting</dt>
 
@@ -130,28 +146,33 @@ title: Program
 <dt class="program-entry">9.30 - 10.30: Session 6 - Fixing Vulnerabilities</dt>
 
 {% include paper.html
-  title="Cédric Van Rompay and Melek Önen"
-  authors="Breaking and Fixing the Security Proof of Garbled Bloom Filters" %}
+  title="Breaking and Fixing the Security Proof of Garbled Bloom Filters"
+  authors="Cédric Van Rompay and Melek Önen"
+%}
 
 {% include paper.html
-  title="Sebastian Neuner, Artemios G. Voyiatzis, Spiros Fotopoulos, Collin Mulliner and Edgar R. Weippl"
-  authors="USBlock: Blocking USB-based Keypress Injection Attacks" %}
+  title="USBlock: Blocking USB-based Keypress Injection Attacks"
+  authors="Sebastian Neuner, Artemios G. Voyiatzis, Spiros Fotopoulos, Collin Mulliner and Edgar R. Weippl"
+%}
 
 <dt class="program-entry">10.30 - 11.00: Coffee break</dt>
 
 <dt class="program-entry">11.00 - 12.30: Session 7 - Networked Systems</dt>
 
 {% include paper.html
-  title="Jia Xu and Jianying Zhou"
-  authors="Virtually Isolated Network: A Hybrid Network to Achieve High Level Security" %}
+  title="Virtually Isolated Network: A Hybrid Network to Achieve High Level Security"
+  authors="Jia Xu and Jianying Zhou"
+%}
 
 {% include paper.html
-  title="Amine Boukhtouta, Makan Pourzandi, Richard Brunner and Stéphane Dault"
-  authors="Fingerprinting Crowd Events in Content Delivery Networks: a Semi-Supervised Methodology" %}
+  title="Fingerprinting Crowd Events in Content Delivery Networks: a Semi-Supervised Methodology"
+  authors="Amine Boukhtouta, Makan Pourzandi, Richard Brunner and Stéphane Dault"
+%}
 
 {% include paper.html
-  title="Chen Cao, Lun-Pin Yuan, Anoop Singhal, Peng Liu, Xiaoyan Sun and Sencun Zhu"
-  authors="Assessing Attack Impact on Business Processes by Interconnecting Attack Graphs and Entity Dependency Graphs" %}
+  title="Assessing Attack Impact on Business Processes by Interconnecting Attack Graphs and Entity Dependency Graphs"
+  authors="Chen Cao, Lun-Pin Yuan, Anoop Singhal, Peng Liu, Xiaoyan Sun and Sencun Zhu"
+%}
 
 <dt class="program-entry">12.30 - 14.00: Lunch</dt>
 
