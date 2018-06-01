@@ -11,13 +11,13 @@ title: Program
 
 <dl>
 
-<dt class="program-entry">9.20 - 9.30: Welcome Address</dt>
+<dt class="program-entry">9.30 - 9.35: Welcome Address</dt>
 
-<dt class="program-entry">9.30 - 10.30: Invited Talk (TBA)</dt>
+<dt class="program-entry">9.35 - 10.35: Invited Talk (TBA)</dt>
 
-<dt class="program-entry">10.30 - 11.00: Coffee Break</dt>
+<dt class="program-entry">10.35 - 11.05: Coffee Break</dt>
 
-<dt class="program-entry">11.00 - 12.30: Session 1 - Integrity and Administration</dt>
+<dt class="program-entry">11.05 - 12.30: Session 1 - Integrity and Administration</dt>
 
 {% include paper.html
   title="Modeling and Mitigating the Insider Threat of Remote Administrators in Clouds"
@@ -30,13 +30,13 @@ title: Program
 %}
 
 {% include paper.html
-  title="Data Integrity Verification in Column-Oriented NoSQL Databases"
-  authors="Grisha Weintraub and Ehud Gudes"
+  title="<small>(short)</small> Probabilistic Event Graph to Model Safety and Security for Diagnosis Purposes"
+  authors="Edwin Bourget, Frédéric Cuppens, Nora Cuppens-Boulahia, Samuel Dubus, Simon Foley and Youssef Laarouchi"
 %}
 
 <dt class="program-entry">12.30 - 14.00: Lunch</dt>
 
-<dt class="program-entry">14.00 - 16.00: Session 2 - Access Control Policies</dt>
+<dt class="program-entry">14.00 - 15.50: Session 2 - Access Control Policies</dt>
 
 {% include paper.html
   title="Enabling the deployment of ABAC policies in RBAC systems"
@@ -58,14 +58,9 @@ title: Program
   authors="Luciano Argento, Andrea Margheri, Federica Paci, Nicola Zannone and Vladimiro Sassone"
 %}
 
-{% include paper.html
-  title="<small>(short)</small> ContextDroid: Analyzing Contextual Permission Usage of Android Apps"
-  authors="Md Zakir Hossen and Mohammad Mannan"
-%}
+<dt class="program-entry">15.50 - 16.20: Coffee break</dt>
 
-<dt class="program-entry">16.00 - 16.30: Coffee break</dt>
-
-<dt class="program-entry">16.30 - 18.30: Social event - Guided tour of Città Alta</dt>
+<dt class="program-entry">16.20 - 18.30: Social event - Guided tour of Città Alta</dt>
 
 <dt class="program-entry">18.30 - 20.00: Refreshments</dt>
 
@@ -94,8 +89,8 @@ title: Program
 %}
 
 {% include paper.html
-  title="Private yet Efficient Decision Tree Evaluation"
-  authors="Marc Joye and Fariborz Salehi"
+  title="Image Pixelization with Differential Privacy"
+  authors="Liyue Fan"
 %}
 
 <dt class="program-entry">12.30 - 14.00: Lunch</dt>
@@ -103,8 +98,8 @@ title: Program
 <dt class="program-entry">14.00 - 15.30: Session 4 - Image Security and User Interaction</dt>
 
 {% include paper.html
-  title="Image Pixelization with Differential Privacy"
-  authors="Liyue Fan"
+  title="Data Integrity Verification in Column-Oriented NoSQL Databases"
+  authors="Grisha Weintraub and Ehud Gudes"
 %}
 
 {% include paper.html
@@ -119,16 +114,16 @@ title: Program
 
 <dt class="program-entry">15.30 - 16.00: Coffee break</dt>
 
-<dt class="program-entry">16.00 - 16.40: Session 5 - Security Analysis</dt>
-
-{% include paper.html
-  title="<small>(short)</small> Probabilistic Event Graph to Model Safety and Security for Diagnosis Purposes"
-  authors="Edwin Bourget, Frédéric Cuppens, Nora Cuppens-Boulahia, Samuel Dubus, Simon Foley and Youssef Laarouchi"
-%}
+<dt class="program-entry">16.00 - 16.50: Session 5 - Security Analysis</dt>
 
 {% include paper.html
   title="<small>(short)</small> FlowConSEAL: Automatic Flow Consistency Analysis of SEAndroid and SELinux Policies"
   authors="Radhika B S, N V Narendra Kumar and R K Shyamasundar"
+%}
+
+{% include paper.html
+  title="<small>(short)</small> ContextDroid: Analyzing Contextual Permission Usage of Android Apps"
+  authors="Md Zakir Hossen and Mohammad Mannan"
 %}
 
 <dt class="program-entry">16.40 - 17.10: Business meeting</dt>
