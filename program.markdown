@@ -126,7 +126,7 @@ title: Program
   authors="Md Zakir Hossen and Mohammad Mannan"
 %}
 
-<dt class="program-entry">16.40 - 17.10: Business meeting</dt>
+<dt class="program-entry">16.50 - 17.10: Business meeting</dt>
 
 <dt class="program-entry">20.00 - 23.00: Banquet</dt>
 
