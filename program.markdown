@@ -17,7 +17,7 @@ title: Program
 
 <dt class="program-entry">10.35 - 11.05: Coffee Break</dt>
 
-<dt class="program-entry">11.05 - 12.30: Session 1 - Integrity and Administration</dt>
+<dt class="program-entry">11.05 - 12.30: Session 1 - Administration</dt>
 
 {% include paper.html
   title="Modeling and Mitigating the Insider Threat of Remote Administrators in Clouds"
@@ -95,7 +95,7 @@ title: Program
 
 <dt class="program-entry">12.30 - 14.00: Lunch</dt>
 
-<dt class="program-entry">14.00 - 15.30: Session 4 - Image Security and User Interaction</dt>
+<dt class="program-entry">14.00 - 15.30: Session 4 - Integrity and User Interaction</dt>
 
 {% include paper.html
   title="Data Integrity Verification in Column-Oriented NoSQL Databases"
@@ -114,7 +114,7 @@ title: Program
 
 <dt class="program-entry">15.30 - 16.00: Coffee break</dt>
 
-<dt class="program-entry">16.00 - 16.50: Session 5 - Security Analysis</dt>
+<dt class="program-entry">16.00 - 16.50: Session 5 - Security Analysis and Private Evaluation</dt>
 
 {% include paper.html
   title="<small>(short)</small> FlowConSEAL: Automatic Flow Consistency Analysis of SEAndroid and SELinux Policies"
@@ -124,6 +124,11 @@ title: Program
 {% include paper.html
   title="<small>(short)</small> ContextDroid: Analyzing Contextual Permission Usage of Android Apps"
   authors="Md Zakir Hossen and Mohammad Mannan"
+%}
+
+{% include paper.html
+  title="Private yet Efficient Decision Tree Evaluation"
+  authors="Marc Joye and Fariborz Salehi"
 %}
 
 <dt class="program-entry">16.50 - 17.10: Business meeting</dt>
