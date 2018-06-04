@@ -47,6 +47,27 @@ A wide network of buses covers the entire city and generally all the main places
 
 --------------------------------------------------------------------------------
 
+## Accommodation
+
+
+Bergamo is composed by a medieval center built on top of a hill (*"Città
+Alta"* in Italian, which means Upper Town), and a relatively large modern city
+on the plain below the hill (*"Città Bassa"*, i.e., Lower Town).
+
+The conference venue (Sant'Agostino Campus), is located at the lowest point of
+Città Alta.
+
+Modern hotels are mostly located in Città Bassa. The most well known ones are
+[Hotel Excelsior San Marco](https://www.hotelsanmarco.com/en/), [Best Western
+Cappello d'Oro](https://www.bwhotelcappellodoro-bg.it/en/home-page.aspx) and
+[NH Bergamo](https://www.nh-hotels.com/hotel/nh-bergamo). The San Marco hotel
+is slightly nearer to the conference. It is a 10-15 minute walk along a nice
+uphill road.  There are no large modern hotels in Città Alta. On booking
+platforms you can find some old buildings that were renovated and offer highly
+rated accommodations, in some cases with full hotel service.
+
+--------------------------------------------------------------------------------
+
 ## How to reach Bergamo
 
 ### Airport transportation
