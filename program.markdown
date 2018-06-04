@@ -114,7 +114,7 @@ title: Program
 
 <dt class="program-entry">15.30 - 16.00: Coffee break</dt>
 
-<dt class="program-entry">16.00 - 16.50: Session 5 - Security Analysis and Private Evaluation</dt>
+<dt class="program-entry">16.00 - 17.20: Session 5 - Security Analysis and Private Evaluation</dt>
 
 {% include paper.html
   title="<small>(short)</small> FlowConSEAL: Automatic Flow Consistency Analysis of SEAndroid and SELinux Policies"
@@ -131,7 +131,7 @@ title: Program
   authors="Marc Joye and Fariborz Salehi"
 %}
 
-<dt class="program-entry">16.50 - 17.10: Business meeting</dt>
+<dt class="program-entry">17.20 - 18.00: Business meeting</dt>
 
 <dt class="program-entry">20.00 - 23.00: Banquet</dt>
 
