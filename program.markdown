@@ -114,36 +114,7 @@ title: Program
 
 <dt class="program-entry">15.30 - 16.00: Coffee break</dt>
 
-<dt class="program-entry">16.00 - 17.20: Session 5 - Security Analysis and Private Evaluation</dt>
-
-{% include paper.html
-  title="<small>(short)</small> FlowConSEAL: Automatic Flow Consistency Analysis of SEAndroid and SELinux Policies"
-  authors="Radhika B S, N V Narendra Kumar and R K Shyamasundar"
-%}
-
-{% include paper.html
-  title="<small>(short)</small> ContextDroid: Analyzing Contextual Permission Usage of Android Apps"
-  authors="Md Zakir Hossen and Mohammad Mannan"
-%}
-
-{% include paper.html
-  title="Private yet Efficient Decision Tree Evaluation"
-  authors="Marc Joye and Fariborz Salehi"
-%}
-
-<dt class="program-entry">17.20 - 18.00: Business meeting</dt>
-
-<dt class="program-entry">20.00 - 23.00: Banquet</dt>
-
-</dl>
-
---------------------------------------------------------------------------------
-
-### Wednesday July 18
-
-<dl>
-
-<dt class="program-entry">9.30 - 10.30: Session 6 - Fixing Vulnerabilities</dt>
+<dt class="program-entry">16.00 - 17.40: Session 5 - Fixing Vulnerabilities and Security Analysis</dt>
 
 {% include paper.html
   title="Breaking and Fixing the Security Proof of Garbled Bloom Filters"
@@ -155,9 +126,33 @@ title: Program
   authors="Sebastian Neuner, Artemios G. Voyiatzis, Spiros Fotopoulos, Collin Mulliner and Edgar R. Weippl"
 %}
 
+{% include paper.html
+  title="<small>(short)</small> FlowConSEAL: Automatic Flow Consistency Analysis of SEAndroid and SELinux Policies"
+  authors="Radhika B S, N V Narendra Kumar and R K Shyamasundar"
+%}
+
+{% include paper.html
+  title="<small>(short)</small> ContextDroid: Analyzing Contextual Permission Usage of Android Apps"
+  authors="Md Zakir Hossen and Mohammad Mannan"
+%}
+
+<dt class="program-entry">17.40 - 18.00: Business meeting</dt>
+
+<dt class="program-entry">20.00 - 23.00: Banquet</dt>
+
+</dl>
+
+--------------------------------------------------------------------------------
+
+### Wednesday July 18
+
+<dl>
+
+<dt class="program-entry">9.30 - 10.30: Invited Talk (TBA)</dt>
+
 <dt class="program-entry">10.30 - 11.00: Coffee break</dt>
 
-<dt class="program-entry">11.00 - 12.30: Session 7 - Networked Systems</dt>
+<dt class="program-entry">11.00 - 13.00: Session 6 - Networked Systems</dt>
 
 {% include paper.html
   title="Virtually Isolated Network: A Hybrid Network to Achieve High Level Security"
@@ -174,6 +169,11 @@ title: Program
   authors="Chen Cao, Lun-Pin Yuan, Anoop Singhal, Peng Liu, Xiaoyan Sun and Sencun Zhu"
 %}
 
-<dt class="program-entry">12.30 - 14.00: Lunch</dt>
+{% include paper.html
+  title="Private yet Efficient Decision Tree Evaluation"
+  authors="Marc Joye and Fariborz Salehi"
+%}
+
+<dt class="program-entry">13.00 - 14.00: Lunch</dt>
 
 </dl>
