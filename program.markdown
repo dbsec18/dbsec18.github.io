@@ -124,11 +124,6 @@ title: Program
 %}
 
 {% include paper.html
-  title="USBlock: Blocking USB-based Keypress Injection Attacks"
-  authors="Sebastian Neuner, Artemios G. Voyiatzis, Spiros Fotopoulos, Collin Mulliner and Edgar R. Weippl"
-%}
-
-{% include paper.html
   title="<small>(short)</small> FlowConSEAL: Automatic Flow Consistency Analysis of SEAndroid and SELinux Policies"
   authors="Radhika B S, N V Narendra Kumar and R K Shyamasundar"
 %}
@@ -136,6 +131,11 @@ title: Program
 {% include paper.html
   title="<small>(short)</small> ContextDroid: Analyzing Contextual Permission Usage of Android Apps"
   authors="Md Zakir Hossen and Mohammad Mannan"
+%}
+
+{% include paper.html
+  title="USBlock: Blocking USB-based Keypress Injection Attacks"
+  authors="Sebastian Neuner, Artemios G. Voyiatzis, Spiros Fotopoulos, Collin Mulliner and Edgar R. Weippl"
 %}
 
 <dt class="program-entry">17.40 - 18.00: Business meeting</dt>
