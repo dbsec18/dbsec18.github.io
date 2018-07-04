@@ -13,8 +13,8 @@ title: Program
 
 <dt class="program-entry">9.30 - 9.35: Welcome Address</dt>
 
-<dt class="program-entry">9.35 - 10.35: Keynote speaker: <em>Ernesto Damiani</em></dt>
-<dd style="margin-left: 6.3em;"><em>Università degli Studi di Milano</em></dd>
+<dt class="program-entry">9.35 - 10.35: Keynote: <a href="/keynote-damiani.html">Securing Artificial Intelligence/Big Data Pipelines</a></dt>
+<dd style="margin-left: 6.3em;"><em>Ernesto Damiani, Università degli Studi di Milano</em></dd>
 
 <dt class="program-entry">10.35 - 11.05: Coffee Break</dt>
 
@@ -150,8 +150,8 @@ title: Program
 
 <dl>
 
-<dt class="program-entry">9.30 - 10.30: Keynote speaker: <em>Alessandro Sorniotti</em></dt>
-<dd style="margin-left: 6.3em;"><em>IBM Research</em></dd>
+<dt class="program-entry">9.30 - 10.30: Keynote: <a href="/keynote-sorniotti.html">Blockchain and Hyperledger Fabric</a></dt>
+<dd style="margin-left: 6.3em;"><em>Alessandro Sorniotti, IBM Research</em></dd>
 
 <dt class="program-entry">10.30 - 11.00: Coffee break</dt>
 
