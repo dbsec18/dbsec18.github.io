@@ -7,6 +7,8 @@ title: Keynote Speaker - Ernesto Damiani
 ## Securing Artificial Intelligence/Big Data Pipelines
 ### Monday July 16, 2018 - 9.35-10.35
 
+------------------------------------------------------------------------
+
 ### Abstract
 
 In the era of the Internet of Things, huge volumes of 
