@@ -4,9 +4,8 @@ title: Keynote Speaker - Ernesto Damiani
 ---
 
 ## Ernesto Damiani - Università degli Studi di Milano
-### Monday July 16, 2018 - 9.35-10.35
-
 ## Securing Artificial Intelligence/Big Data Pipelines
+### Monday July 16, 2018 - 9.35-10.35
 
 ### Abstract
 
