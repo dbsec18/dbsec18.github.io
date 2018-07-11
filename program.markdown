@@ -73,8 +73,8 @@ title: Program
 
 <dl>
 
-<dt class="program-entry">9.30 - 10.30: Keynote speaker: <em>Jaideep Vaidya</em></dt>
-<dd style="margin-left: 6.3em;"><em>Rutgers University</em></dd>
+<dt class="program-entry">9.30 - 10.30: Keynote: <a href="{{ "/keynote-vaidya" | relative_url }}">Security in the edge computing environment: Challenges and Opportunities</a></dt>
+<dd style="margin-left: 6.3em;"><em>Jaideep Vaidya, Rutgers University</em></dd>
 
 <dt class="program-entry">10.30 - 11.00: Coffee Break</dt>
 
