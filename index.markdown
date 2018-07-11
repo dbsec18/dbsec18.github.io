@@ -3,6 +3,8 @@ layout: default
 title: DBSec2018
 ---
 
+[** **Data and Applications Security and Privacy XXXII - PROCEEDINGS** **](https://link.springer.com/book/10.1007/978-3-319-95729-6)
+
 <div class="row">
   <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
   <img class="img-responsive img-rounded" src="{{ "/assets/images/bergamo.jpg" | relative_url }}" style="margin-bottom: 20px;"/>
