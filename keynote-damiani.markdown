@@ -27,7 +27,7 @@ analytics.
 ### Biography
 
 Ernesto Damiani is a professor at the Department of Computer 
-Science at Universitta' degli Studi di Milano, where he leads the SEcure 
+Science at Universita' degli Studi di Milano, where he leads the SEcure 
 Service-oriented Architectures Research (SESAR) Lab. Ernesto is also the 
 Founding Director of the Center  for  Cyber-Physical Systems at Khalifa 
 University, in the UAE. He received a honorary doctorate from Institut 
