@@ -4,9 +4,6 @@ title: Program
 ---
 
 ## Program
-
-[** **Data and Applications Security and Privacy XXXII - PROCEEDINGS** **](https://link.springer.com/book/10.1007/978-3-319-95729-6)
-
 --------------------------------------------------------------------------------
 
 ### Monday, July 16th
