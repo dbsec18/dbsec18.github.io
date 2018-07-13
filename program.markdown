@@ -17,7 +17,7 @@ title: Program
 
 <dt class="program-entry">10.35 - 11.05: Coffee Break</dt>
 
-<dt class="program-entry">11.05 - 12.30: Session 1 - Administration</dt>
+<dt class="program-entry">11.05 - 12.30: Session 1 - Administration (Chair: R. K. Shyamasundar)</dt>
 
 {% include paper.html
   title="Modeling and Mitigating the Insider Threat of Remote Administrators in Clouds"
@@ -36,7 +36,7 @@ title: Program
 
 <dt class="program-entry">12.30 - 14.00: Lunch</dt>
 
-<dt class="program-entry">14.00 - 15.50: Session 2 - Access Control Policies</dt>
+<dt class="program-entry">14.00 - 15.50: Session 2 - Access Control Policies (Chair: Jianying Zhou)</dt>
 
 {% include paper.html
   title="Enabling the deployment of ABAC policies in RBAC systems"
@@ -77,7 +77,7 @@ title: Program
 
 <dt class="program-entry">10.30 - 11.00: Coffee Break</dt>
 
-<dt class="program-entry">11.00 - 12.30: Session 3 - Privacy-Preserving Access and Computation</dt>
+<dt class="program-entry">11.00 - 12.30: Session 3 - Privacy-Preserving Access and Computation (Chair: Ken Barker)</dt>
 
 {% include paper.html
   title="Oblivious Dynamic Searchable Encryption on Distributed Cloud Systems"
@@ -96,7 +96,7 @@ title: Program
 
 <dt class="program-entry">12.30 - 14.00: Lunch</dt>
 
-<dt class="program-entry">14.00 - 15.30: Session 4 - Integrity and User Interaction</dt>
+<dt class="program-entry">14.00 - 15.30: Session 4 - Integrity and User Interaction (Chair: Joerg Sack)</dt>
 
 {% include paper.html
   title="Data Integrity Verification in Column-Oriented NoSQL Databases"
@@ -115,7 +115,7 @@ title: Program
 
 <dt class="program-entry">15.30 - 16.00: Coffee break</dt>
 
-<dt class="program-entry">16.00 - 17.40: Session 5 - Fixing Vulnerabilities and Security Analysis</dt>
+<dt class="program-entry">16.00 - 17.40: Session 5 - Fixing Vulnerabilities and Security Analysis (Chair: Ehud Gudes)</dt>
 
 {% include paper.html
   title="Breaking and Fixing the Security Proof of Garbled Bloom Filters"
@@ -154,7 +154,7 @@ title: Program
 
 <dt class="program-entry">10.30 - 11.00: Coffee break</dt>
 
-<dt class="program-entry">11.00 - 13.00: Session 6 - Networked Systems</dt>
+<dt class="program-entry">11.00 - 13.00: Session 6 - Networked Systems (Chair: Stefano Paraboschi)</dt>
 
 {% include paper.html
   title="Virtually Isolated Network: A Hybrid Network to Achieve High Level Security"
