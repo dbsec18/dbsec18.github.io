@@ -154,7 +154,7 @@ title: Program
 
 <dt class="program-entry">10.30 - 11.00: Coffee break</dt>
 
-<dt class="program-entry">11.00 - 13.00: Session 6 - Networked Systems (Chair: Stefano Paraboschi)</dt>
+<dt class="program-entry">11.00 - 13.00: Session 6 - Networked Systems (Chair: Nawaf Alhebaishi)</dt>
 
 {% include paper.html
   title="Virtually Isolated Network: A Hybrid Network to Achieve High Level Security"
