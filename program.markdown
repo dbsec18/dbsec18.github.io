@@ -20,8 +20,8 @@ title: Program
 <dt class="program-entry">11.05 - 12.30: Session 1 - Administration (Chair: R. K. Shyamasundar)</dt>
 
 {% include paper.html
-  title="Modeling and Mitigating the Insider Threat of Remote Administrators in Clouds"
-  authors="Nawaf Alhebaishi, Lingyu Wang, Sushil Jajodia and Anoop Singhal"
+  title="Assessing Attack Impact on Business Processes by Interconnecting Attack Graphs and Entity Dependency Graphs"
+  authors="Chen Cao, Lun-Pin Yuan, Anoop Singhal, Peng Liu, Xiaoyan Sun and Sencun Zhu"
 %}
 
 {% include paper.html
@@ -60,9 +60,26 @@ title: Program
 
 <dt class="program-entry">15.50 - 16.20: Coffee break</dt>
 
-<dt class="program-entry">16.20 - 18.30: Social event - Guided tour of Città Alta</dt>
+<dt class="program-entry">16.20 - 17.50: Session 3 </dt>
 
-<dt class="program-entry">18.30 - 20.00: Refreshments</dt>
+{% include paper.html
+  title="Breaking and Fixing the Security Proof of Garbled Bloom Filters"
+  authors="Cédric Van Rompay and Melek Önen"
+%}
+
+{% include paper.html
+  title="Modeling and Mitigating the Insider Threat of Remote Administrators in Clouds"
+  authors="Nawaf Alhebaishi, Lingyu Wang, Sushil Jajodia and Anoop Singhal"
+%}
+
+{% include paper.html
+  title="Virtually Isolated Network: A Hybrid Network to Achieve High Level Security"
+  authors="Jia Xu and Jianying Zhou"
+%}
+
+<dt class="program-entry">17.50 - 18.15: Business meeting</dt>
+
+<dt class="program-entry">18.15 - 20.00: Refreshments</dt>
 
 </dl>
 
@@ -77,7 +94,7 @@ title: Program
 
 <dt class="program-entry">10.30 - 11.00: Coffee Break</dt>
 
-<dt class="program-entry">11.00 - 12.30: Session 3 - Privacy-Preserving Access and Computation (Chair: Ken Barker)</dt>
+<dt class="program-entry">11.00 - 12.30: Session 4 - Privacy-Preserving Access and Computation (Chair: Ken Barker)</dt>
 
 {% include paper.html
   title="Oblivious Dynamic Searchable Encryption on Distributed Cloud Systems"
@@ -96,7 +113,7 @@ title: Program
 
 <dt class="program-entry">12.30 - 14.00: Lunch</dt>
 
-<dt class="program-entry">14.00 - 15.30: Session 4 - Integrity and User Interaction (Chair: Joerg Sack)</dt>
+<dt class="program-entry">14.00 - 16.10: Session 5 - Integrity and User Interaction (Chair: Joerg Sack)</dt>
 
 {% include paper.html
   title="Data Integrity Verification in Column-Oriented NoSQL Databases"
@@ -113,15 +130,6 @@ title: Program
   authors="Majid Hatamian, Agnieszka Kitkowska, Jana Korunovska and Sabrina Kirrane"
 %}
 
-<dt class="program-entry">15.30 - 16.00: Coffee break</dt>
-
-<dt class="program-entry">16.00 - 17.40: Session 5 - Fixing Vulnerabilities and Security Analysis (Chair: Ehud Gudes)</dt>
-
-{% include paper.html
-  title="Breaking and Fixing the Security Proof of Garbled Bloom Filters"
-  authors="Cédric Van Rompay and Melek Önen"
-%}
-
 {% include paper.html
   title="<small>(short)</small> FlowConSEAL: Automatic Flow Consistency Analysis of SEAndroid and SELinux Policies"
   authors="Radhika B S, N V Narendra Kumar and R K Shyamasundar"
@@ -132,14 +140,12 @@ title: Program
   authors="Md Zakir Hossen and Mohammad Mannan"
 %}
 
-{% include paper.html
-  title="USBlock: Blocking USB-based Keypress Injection Attacks"
-  authors="Sebastian Neuner, Artemios G. Voyiatzis, Spiros Fotopoulos, Collin Mulliner and Edgar R. Weippl"
-%}
+<dt class="program-entry">16.10 - 16.40: Coffee break</dt>
 
-<dt class="program-entry">17.40 - 18.00: Business meeting</dt>
 
-<dt class="program-entry">20.00 - 23.00: Banquet</dt>
+<dt class="program-entry">16.45 - 19.00: Social event - Guided tour of Città Alta</dt>
+
+<dt class="program-entry">20.00 - 23.00: Social Dinner at Taverna Colleoni dell'Angelo</dt>
 
 </dl>
 
@@ -154,12 +160,13 @@ title: Program
 
 <dt class="program-entry">10.30 - 11.00: Coffee break</dt>
 
-<dt class="program-entry">11.00 - 13.00: Session 6 - Networked Systems (Chair: Nawaf Alhebaishi)</dt>
+<dt class="program-entry">11.00 - 12.30: Session 6 - Networked Systems (Chair: Nawaf Alhebaishi)</dt>
 
 {% include paper.html
-  title="Virtually Isolated Network: A Hybrid Network to Achieve High Level Security"
-  authors="Jia Xu and Jianying Zhou"
+  title="USBlock: Blocking USB-based Keypress Injection Attacks"
+  authors="Sebastian Neuner, Artemios G. Voyiatzis, Spiros Fotopoulos, Collin Mulliner and Edgar R. Weippl"
 %}
+
 
 {% include paper.html
   title="Fingerprinting Crowd Events in Content Delivery Networks: a Semi-Supervised Methodology"
@@ -167,15 +174,10 @@ title: Program
 %}
 
 {% include paper.html
-  title="Assessing Attack Impact on Business Processes by Interconnecting Attack Graphs and Entity Dependency Graphs"
-  authors="Chen Cao, Lun-Pin Yuan, Anoop Singhal, Peng Liu, Xiaoyan Sun and Sencun Zhu"
-%}
-
-{% include paper.html
   title="Private yet Efficient Decision Tree Evaluation"
   authors="Marc Joye and Fariborz Salehi"
 %}
 
-<dt class="program-entry">13.00 - 14.00: Lunch</dt>
+<dt class="program-entry">12.30 - 14.00: Lunch</dt>
 
 </dl>
