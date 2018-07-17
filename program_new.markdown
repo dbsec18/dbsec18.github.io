@@ -20,8 +20,8 @@ title: Program
 <dt class="program-entry">11.05 - 12.30: Session 1 - Administration (Chair: R. K. Shyamasundar)</dt>
 
 {% include paper.html
-  title="Modeling and Mitigating the Insider Threat of Remote Administrators in Clouds"
-  authors="Nawaf Alhebaishi, Lingyu Wang, Sushil Jajodia and Anoop Singhal"
+  title="Assessing Attack Impact on Business Processes by Interconnecting Attack Graphs and Entity Dependency Graphs"
+  authors="Chen Cao, Lun-Pin Yuan, Anoop Singhal, Peng Liu, Xiaoyan Sun and Sencun Zhu"
 %}
 
 {% include paper.html
@@ -68,6 +68,11 @@ title: Program
 %}
 
 {% include paper.html
+  title="Modeling and Mitigating the Insider Threat of Remote Administrators in Clouds"
+  authors="Nawaf Alhebaishi, Lingyu Wang, Sushil Jajodia and Anoop Singhal"
+%}
+
+{% include paper.html
   title="Virtually Isolated Network: A Hybrid Network to Achieve High Level Security"
   authors="Jia Xu and Jianying Zhou"
 %}
@@ -111,6 +116,11 @@ title: Program
 <dt class="program-entry">14.00 - 16.10: Session 5 - Integrity and User Interaction (Chair: Joerg Sack)</dt>
 
 {% include paper.html
+  title="Data Integrity Verification in Column-Oriented NoSQL Databases"
+  authors="Grisha Weintraub and Ehud Gudes"
+%}
+
+{% include paper.html
   title="A Novel Hybrid Password Authentication Scheme Based on Text and Image"
   authors="Ian Mackie and Merve Yildirim"
 %}
@@ -118,11 +128,6 @@ title: Program
 {% include paper.html
   title="\"It's shocking!\": Analysing the Impact and Reactions to the A3: Android Apps Behaviour Analyser"
   authors="Majid Hatamian, Agnieszka Kitkowska, Jana Korunovska and Sabrina Kirrane"
-%}
-
-{% include paper.html
-  title="Assessing Attack Impact on Business Processes by Interconnecting Attack Graphs and Entity Dependency Graphs"
-  authors="Chen Cao, Lun-Pin Yuan, Anoop Singhal, Peng Liu, Xiaoyan Sun and Sencun Zhu"
 %}
 
 {% include paper.html
@@ -137,7 +142,6 @@ title: Program
 
 <dt class="program-entry">16.10 - 16.40: Coffee break</dt>
 
-<dt class="program-entry">16.00 - 17.40: Session 5 - Fixing Vulnerabilities and Security Analysis (Chair: Ehud Gudes)</dt>
 
 <dt class="program-entry">16.45 - 19.00: Social event - Guided tour of Città Alta</dt>
 
@@ -163,10 +167,6 @@ title: Program
   authors="Sebastian Neuner, Artemios G. Voyiatzis, Spiros Fotopoulos, Collin Mulliner and Edgar R. Weippl"
 %}
 
-{% include paper.html
-  title="Data Integrity Verification in Column-Oriented NoSQL Databases"
-  authors="Grisha Weintraub and Ehud Gudes"
-%}
 
 {% include paper.html
   title="Fingerprinting Crowd Events in Content Delivery Networks: a Semi-Supervised Methodology"
