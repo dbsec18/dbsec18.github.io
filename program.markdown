@@ -135,7 +135,7 @@ title: Program
   authors="Md Zakir Hossen and Mohammad Mannan"
 %}
 
-<dt class="program-entry">16.15 - 16.45: Coffee break</dt>
+<dt class="program-entry">15.40 - 16.10: Coffee break</dt>
 
 
 <dt class="program-entry">16.45 - 19.00: Social event - Guided tour of Città Alta</dt>
