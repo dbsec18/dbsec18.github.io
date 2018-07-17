@@ -113,16 +113,11 @@ title: Program
 
 <dt class="program-entry">12.30 - 14.00: Lunch</dt>
 
-<dt class="program-entry">14.00 - 16.10: Session 5 - Integrity and User Interaction (Chair: Joerg Sack)</dt>
+<dt class="program-entry">14.00 - 15.40: Session 5 - Integrity and User Interaction (Chair: Joerg Sack)</dt>
 
 {% include paper.html
   title="Data Integrity Verification in Column-Oriented NoSQL Databases"
   authors="Grisha Weintraub and Ehud Gudes"
-%}
-
-{% include paper.html
-  title="A Novel Hybrid Password Authentication Scheme Based on Text and Image"
-  authors="Ian Mackie and Merve Yildirim"
 %}
 
 {% include paper.html
@@ -140,7 +135,7 @@ title: Program
   authors="Md Zakir Hossen and Mohammad Mannan"
 %}
 
-<dt class="program-entry">16.10 - 16.40: Coffee break</dt>
+<dt class="program-entry">15.40 - 16.10: Coffee break</dt>
 
 
 <dt class="program-entry">16.45 - 19.00: Social event - Guided tour of Città Alta</dt>
