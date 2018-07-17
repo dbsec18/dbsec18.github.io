@@ -138,7 +138,7 @@ title: Program
 <dt class="program-entry">15.40 - 16.10: Coffee break</dt>
 
 
-<dt class="program-entry">16.45 - 19.00: Social event - Guided tour of Città Alta</dt>
+<dt class="program-entry">17.30 - 19.30: Social event - Guided tour of Città Alta (from Piazza Mercato delle Scarpe, Funicolare)</dt>
 
 <dt class="program-entry">20.00 - 23.00: Social Dinner at Taverna Colleoni dell'Angelo</dt>
 
