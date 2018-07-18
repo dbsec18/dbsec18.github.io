@@ -169,7 +169,7 @@ title: Program
 %}
 
 {% include paper.html
-  title="Private yet Efficient Decision Tree Evaluation  <a href="https://cs.unibg.it/DBSec2018_Salehi.mp4">https://cs.unibg.it/DBSec2018_Salehi.mp4</a>"
+  title="Private yet Efficient Decision Tree Evaluation  <a href="https://cs.unibg.it/DBSec2018_Salehi.mp4">video of the presentation</a>"
   authors="Marc Joye and Fariborz Salehi"
 %}
 
