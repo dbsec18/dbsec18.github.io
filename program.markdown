@@ -171,8 +171,8 @@ title: Program
 {% include paper.html
   title="Private yet Efficient Decision Tree Evaluation"
   authors="Marc Joye and Fariborz Salehi"
-  <a href="https://cs.unibg.it/DBSec2018_Salehi.mp4">https://cs.unibg.it/DBSec2018_Salehi.mp4</a>
 %}
+  <a href="https://cs.unibg.it/DBSec2018_Salehi.mp4">https://cs.unibg.it/DBSec2018_Salehi.mp4</a>
 
 <dt class="program-entry">12.30 - 14.00: Lunch</dt>
 
