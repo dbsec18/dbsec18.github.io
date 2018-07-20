@@ -68,7 +68,7 @@ title: Program
 %}
 
 {% include paper.html
-title="Modeling and Mitigating the Insider Threat of Remote Administrators in Clouds <b>\*Best student paper award\*</b>"
+title="Modeling and Mitigating the Insider Threat of Remote Administrators in Clouds <b>*Best student paper award*</b>"
   authors="Nawaf Alhebaishi, Lingyu Wang, Sushil Jajodia and Anoop Singhal"
 %}
 
@@ -97,7 +97,7 @@ title="Modeling and Mitigating the Insider Threat of Remote Administrators in Cl
 <dt class="program-entry">11.00 - 12.30: Session 4 - Privacy-Preserving Access and Computation (Chair: Ken Barker)</dt>
 
 {% include paper.html
-title="Oblivious Dynamic Searchable Encryption on Distributed Cloud Systems <b>\*Best paper award\*</b>"
+title="Oblivious Dynamic Searchable Encryption on Distributed Cloud Systems <b>*Best paper award*</b>"
   authors="Thang Hoang, Attila A. Yavuz, Betul F. Durak and Jorge Guajardo"
 %}
 
