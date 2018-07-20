@@ -155,7 +155,7 @@ title: Program
 
 <dt class="program-entry">10.30 - 11.00: Coffee break</dt>
 
-<dt class="program-entry">11.00 - 12.30: Session 6 - Networked Systems (Chair: Nawaf Alhebaishi)</dt>
+<dt class="program-entry">11.00 - 13.00: Session 6 - Networked Systems (Chair: Nawaf Alhebaishi)</dt>
 
 {% include paper.html
   title="USBlock: Blocking USB-based Keypress Injection Attacks"
@@ -169,11 +169,15 @@ title: Program
 %}
 
 {% include paper.html
-  title="Private yet Efficient Decision Tree Evaluation  <a href="https://cs.unibg.it/DBSec2018_Salehi.mp4">video of the presentation</a>"
+  title="Private yet Efficient Decision Tree Evaluation"
   authors="Marc Joye and Fariborz Salehi"
 %}
 
+{% include paper.html
+  title="A Novel Hybrid Password Authentication Scheme Based on Text and Image"
+  authors="Ian Mackie and Merve Yildirim"
+%}
 
-<dt class="program-entry">12.30 - 14.00: Lunch</dt>
+<dt class="program-entry">13.00 - 14.00: Lunch</dt>
 
 </dl>
